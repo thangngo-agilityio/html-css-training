@@ -44,11 +44,11 @@ This is the HTML/CSS training plan for Tuan.Phan. This is the plan with default 
 - [ ] Chapter 18: Process & Design
 
 ### CSS layout
-**Flexbox in CSS**
+1. **Flexbox in CSS**
     Reference link:
         [ ] [CSS Flexible Box Layout](https://drafts.csswg.org/css-flexbox/)
         [ ] [Flexbox Cheat Sheet](https://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
-**CSS Naming convention and Style Guide**
+2. **CSS Naming convention and Style Guide**
     Reference link:
         [ ] [CSS Guidelines ](http://cssguidelin.es/)
         [ ] [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
