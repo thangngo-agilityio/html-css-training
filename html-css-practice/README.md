@@ -45,13 +45,13 @@ This is the HTML/CSS training plan for Tuan.Phan. This is the plan with default 
 
 ### CSS layout
 **Flexbox in CSS**
-- Reference link:
--- [ ] [CSS Flexible Box Layout](https://drafts.csswg.org/css-flexbox/)
--- [ ] [Flexbox Cheat Sheet](https://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
+    Reference link:
+        [ ] [CSS Flexible Box Layout](https://drafts.csswg.org/css-flexbox/)
+        [ ] [Flexbox Cheat Sheet](https://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
 **CSS Naming convention and Style Guide**
-- Reference link:
--- [ ] [CSS Guidelines ](http://cssguidelin.es/)
--- [ ] [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+    Reference link:
+        [ ] [CSS Guidelines ](http://cssguidelin.es/)
+        [ ] [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 
 ## RESPONSIVE WEB DESIGN (1 day)
 - [ ] [Responsive Web Design Basics](https://developers.google.com/web/fundamentals/design-and-ux/responsive)
