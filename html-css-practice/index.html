@@ -11,8 +11,9 @@
   <h1>This is the Body of the page</h1>
   <p>Anything within the body of a web page is displayed in the main browser window.</p>
 
+  <hr>
+  <!-- Chapter 2: Text -->
   <section>
-    <hr>
     <div>
       <h1>Chapter 2: Text | this is a Level 1 Heading</h1>
       <div>
@@ -105,6 +106,7 @@
     </div>
   </section>
   <hr>
+  <!-- Chapter 3: Lists -->
   <section>
     <h2>Chapter 3: Lists</h2>
     <div>
@@ -163,6 +165,7 @@
     </div>
   </section>
   <hr>
+  <!-- Chapter 4: Links -->
   <section>
     <h2>Chapter 4: Links</h2>
     <div>
@@ -189,6 +192,7 @@
     </div>
   </section>
   <hr>
+  <!-- Chapter 5: Images -->
   <section>
     <h2>Chapter 5: Images</h2>
     <div>
@@ -216,6 +220,7 @@
     </div>
   </section>
   <hr>
+  <!-- Chapter 6: Tables -->
   <section>
     <h2>Chapter 6: Tables</h2>
     <div>
@@ -294,6 +299,208 @@
           </tr>
         </tfoot>
       </table>
+    </div>
+  </section>
+  <hr>
+  <!-- Chapter 7: Forms -->
+  <section>
+    <h2>Chapter 7: Forms</h2>
+    <!-- Form structure -->
+    <div>
+      <h3>1. Form structure</h3>
+      <form action="http://www.example.com/subscribe.php" method="get">
+        <p>This is where the form controls will appear.</p>
+      </form>
+    </div>
+    <!-- Text input -->
+    <div>
+      <h3>2. Text input</h3>
+      <form action="http://www.example.com/login.php">
+        <p>Username:<input type="text" name="username" size="15" maxlength="30" /></p>
+      </form>
+    </div>
+    <!-- Password input -->
+    <div>
+      <h3>3. Password input</h3>
+      <form action="http://www.example.com/login.php">
+        <p>Username:
+          <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+        <p>Password:
+          <input type="password" name="password" size="15" maxlength="30" />
+        </p>
+      </form>
+    </div>
+    <!-- Text area -->
+    <div>
+      <h3>4. Text area</h3>
+      <form action="http://www.example.com/comments.php">
+        <p>What did you think of this gig?</p>
+        <textarea name="comments" cols="20" rows="4" placeholder="Enter your comments..."></textarea>
+      </form>
+    </div>
+    <!-- Radio button -->
+    <div>
+      <h3>5. Radio button</h3>
+      <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite genre:
+          <br />
+          <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+          <input type="radio" name="genre" value="pop" />
+          Pop
+          <input type="radio" name="genre" value="jazz" />
+          Jazz
+        </p>
+      </form>
+    </div>
+    <!-- Checkbox -->
+    <div>
+      <h3>6. Checkbox</h3>
+      <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite music service(s):
+          <br />
+          <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+          <input type="checkbox" name="service" value="lastfm" /> Last.fm
+          <input type="checkbox" name="service" value="spotify" /> Spotify
+        </p>
+      </form>
+    </div>
+    <!-- Drop down list box -->
+    <div>
+      <h3>7. Drop down list box </h3>
+      <form action="http://www.example.com/profile.php">
+        <p>What device do you listen to music on?</p>
+        <select name="devices">
+          <option value="ipod">iPod</option>
+          <option value="radio">Radio</option>
+          <option value="computer">Computer</option>
+        </select>
+      </form>
+    </div>
+    <!-- File input box -->
+    <div>
+      <h3>8. File input box</h3>
+      <form action="http://www.example.com/upload.php" method="post">
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song" /><br />
+        <input type="submit" value="Upload" />
+      </form>
+    </div>
+    <!-- Submit button -->
+    <div>
+      <h3>9. Submit button</h3>
+      <form action="http://www.example.com/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="submit" name="subscribe" value="Subscribe" />
+      </form>
+    </div>
+    <!-- Image button -->
+    <div>
+      <h3>10. Image button</h3>
+      <form action="http://www.example.org/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="image"
+          src="https://media.gettyimages.com/id/1326791987/photo/quokka-family.jpg?s=1024x1024&w=gi&k=20&c=d2w1D6LHhqlHp_Y_fz1ymi_Q8D2CLpgokbQMXvHIPT4="
+          width="100" height="20" />
+      </form>
+    </div>
+    <!-- Button & hidden controls -->
+    <div>
+      <h3>11. Button & hidden controls</h3>
+      <form action="http://www.example.com/add.php">
+        <button><img
+            src="https://media.gettyimages.com/id/1326791987/photo/quokka-family.jpg?s=1024x1024&w=gi&k=20&c=d2w1D6LHhqlHp_Y_fz1ymi_Q8D2CLpgokbQMXvHIPT4="
+            alt="add" width="10" height="10" /> Add</button>
+        <input type="hidden" name="bookmark" value="lyrics" />
+      </form>
+    </div>
+    <!-- Labeling form controls -->
+    <div>
+      <h3>12. Labeling form controls</h3>
+      <div>
+        <label>Age: <input type="text" name="age" /></label>
+        <br />
+        Gender:
+        <input id="female" type="radio" name="gender" value="f">
+        <label for="female">Female</label>
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">Male</label>
+      </div>
+    </div>
+    <!-- Group form elements -->
+    <div>
+      <h3>13. Group form element</h3>
+      <fieldset>
+        <legend>Contact details</legend>
+        <label>Email:<br />
+          <input type="text" name="email" /></label><br />
+        <label>Mobile:<br />
+          <input type="text" name="mobile" /></label><br />
+        <label>Telephone:<br />
+          <input type="text" name="telephone" /></label>
+      </fieldset>
+    </div>
+    <!-- HTML5: Form validation -->
+    <div>
+      <h3>14. HTML5: Form validation</h3>
+      <form action="http://www.example.com/login/" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required="required" /></title><br />
+        <label for="password">Password:</label>
+        <input type="password" name="password" required="required" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <!-- HTML5: Date input -->
+    <div>
+      <h3>15. HTML5: Date input</h3>
+      <form action="http://www.example.com/bookings/" method="post">
+        <label for="username">Departure date:</label>
+        <input type="date" name="depart" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <!-- HTML5: Email & URL input -->
+    <div>
+      <h3>16. HTML5: Email & URL input</h3>
+      <div>
+        <h4>- Type email</h4>
+        <form action="http://www.example.org/subscribe.php">
+          <p>Please enter your email address:</p>
+          <input type="email" name="email" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <div>
+        <h4>- Type url</h4>
+        <form action="http://www.example.org/profile.php">
+          <p>Please enter your website address:</p>
+          <input type="url" name="website" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <!-- Search input -->
+    <div>
+      <h3>17. HTML5: Search input</h3>
+      <div>
+        <h4>- type search </h4>
+        <form action="http://www.example.org/search.php">
+          <p>Search:</p>
+          <input type="search" name="search" />
+          <input type="submit" value="Search" />
+        </form>
+      </div>
+      <div>
+        <h4>- placeholder</h4>
+        <form action="http://www.example.org/search.php">
+          <p>Search:</p>
+          <input type="search" name="search" placeholder="Enter keyword" />
+          <input type="submit" value="Search" />
+        </form>
+      </div>
     </div>
   </section>
 </body>
