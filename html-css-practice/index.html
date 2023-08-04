@@ -561,7 +561,8 @@
     </div>
     <div>
       <h3>5. Inline elements</h3>
-      Timed to a single revolution of the planet around the sun at a 23.4 degrees tilt that plays out the rhythm of the seasons, this <em>Origins of Art</em> cycle is organized around four themes: <b>science, architecture, history</b> and <b>religion</b>.
+      Timed to a single revolution of the planet around the sun at a 23.4 degrees tilt that plays out the rhythm of the seasons, this <em>Origins of Art</em> cycle is organized around four themes: <b>science, architecture, history</b>
+      and <b>religion</b>.
     </div>
     <div>
       <h3>6. Iframe</h3>
@@ -569,8 +570,42 @@
 
       <div>
         <h4>- scrolling, frameborder, seamless</h4>
-        <iframe src="http://maps.google.co.uk/maps?q=moma+new+york&output=embed" width="450"  height="350" frameborder="0" scrolling="no"></iframe>
+        <iframe src="http://maps.google.co.uk/maps?q=moma+new+york&output=embed" width="450" height="350"
+          frameborder="0" scrolling="no"></iframe>
       </div>
+    </div>
+  </section>
+  <hr>
+  <!-- Chapter 9: Flash, video & audio -->
+  <section>
+    <h2>Chapter 9: Flash, Video & Audio</h2>
+    <div>
+      <h3>1. <span style="color: #3c78d8;">HTML5:</span> Adding video to your pages</h3>
+      <video src="video/puppy.mp4" poster="img/puppy.jpg" width="400" height="300" preload controls loop>
+        <p>A video of a puppy playing in the snow</p>
+      </video>
+    </div>
+    <div>
+      <h3>2. <span style="color: #3c78d8;">HTML5:</span> Multiple video source</h3>
+      <video poster="img/puppy.jpg" width="400" height="320" preload controls loop>
+        <source src="video/puppy.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+        <source src="video/puppy.webm" type='video/webm;codecs="vp8, vorbis"' />
+        <p>A video of a puppy playing in the snow</p>
+      </video>
+    </div>
+    <div>
+      <h3>3. <span>HTML5</span> Adding HTML5 audio to your pages</h3>
+      <audio src="audio/test-audio.ogg" controls autoplay>
+        <p>This browser does not support our audio format.</p>
+      </audio>
+    </div>
+    <div>
+      <h3>4. <span>HTML5</span> Multiple source</h3>
+      <audio controls autoplay>
+        <source src="audio/test-audio.ogg" />
+        <source src="audio/test-audio.mp3" />
+        <p>This browser does not support our audio format.</p>
+      </audio>
     </div>
   </section>
 </body>
