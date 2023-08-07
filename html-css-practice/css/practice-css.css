@@ -7,3 +7,198 @@ body {
 h1 {
   color: rgb(255, 255, 255);
 }
+
+/* Chapter 12: Text */
+/* 1. Size of type */
+body {
+  font-family: Arial, Verdana, sans-serif;
+  font-size: 12px;
+}
+
+h1 {
+  font-size: 200%;
+}
+
+h2 {
+  font-size: 1.3em;
+}
+
+/* 2. Bold */
+.credits {
+  font-weight: bold;
+}
+
+/* 3. Italic */
+.credits {
+  font-style: italic;
+}
+
+/* 4.Uppercase & Lowercase */
+h1 {
+  text-transform: uppercase;
+}
+
+h2 {
+  text-transform: lowercase;
+}
+
+.credits {
+  text-transform: capitalize;
+}
+
+/* 5. Leading */
+p {
+  line-height: 1.4em;
+}
+
+/* 6. Alignment */
+h1 {
+  text-align: left;
+}
+
+p {
+  text-align: justify;
+}
+
+.credits {
+  text-align: right;
+}
+
+/* 7. Vertical alignment */
+#six-months {
+  vertical-align: text-top;
+}
+
+#one-year {
+  vertical-align: baseline;
+}
+
+#two-years {
+  vertical-align: text-bottom;
+}
+
+/* 9. CSS3: Drop shadow */
+p.one {
+  background-color: #eeeeee;
+  color: #666666;
+  text-shadow: 1px 1px 0px #000000;
+}
+
+p.two {
+  background-color: #dddddd;
+  color: #666666;
+  text-shadow: 1px 1px 3px #666666;
+}
+
+p.three {
+  background-color: #cccccc;
+  color: #ffffff;
+  text-shadow: 2px 2px 7px #111111;
+}
+
+p.four {
+  background-color: #bbbbbb;
+  color: #cccccc;
+  text-shadow: -1px -2px #666666;
+}
+
+p.five {
+  background-color: #aaaaaa;
+  color: #ffffff;
+  text-shadow: -1px -1px #666666;
+}
+
+/* 10. First letter or line */
+p.intro:first-letter {
+  font-size: 200%;
+}
+
+p.intro:first-line {
+  font-weight: bold;
+}
+
+/* 10. first letter or line */
+a:link {
+  color: deeppink;
+  text-decoration: none;
+}
+
+a:visited {
+  color: black;
+}
+
+a:hover {
+  color: deeppink;
+  text-decoration: underline;
+}
+
+a:active {
+  color: darkcyan;
+}
+
+/* 11. Responding to users */
+input {
+  padding: 6px 12px 6px 12px;
+  border: 1px solid #665544;
+  color: #ffffff;
+}
+
+input.submit:hover {
+  background-color: #665544;
+}
+
+input.submit {
+  cursor: pointer;
+}
+
+input.submit:active {
+  background-color: chocolate;
+}
+
+input.text {
+  color: #cccccc;
+}
+
+input.text:focus {
+  color: #665544;
+}
+
+/* Chapter 13: Boxes | Box dimensions*/
+div.box {
+  height: 300px;
+  width: 300px;
+  background-color: red;
+}
+
+p {
+  height: 75%;
+  width: 75%;
+  background-color: #0088dd;
+}
+
+/* 2. Limiting width */
+td.description {
+  min-width: 450px;
+  max-width: 650px;
+  text-align: left;
+  padding: 5px;
+  margin: 0px;
+}
+
+/* 3. Limiting height */
+h3,
+p {
+  width: 400px;
+  font-size: 90%;
+  line-height: 1.2em;
+}
+
+h3 {
+  color: #0088dd;
+  border-bottom: 1px solid #0088dd;
+}
+
+p {
+  min-height: 10px;
+  max-height: 30px;
+}
