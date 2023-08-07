@@ -225,3 +225,26 @@ p.two {
 .border-width p.three {
   border-width: 1px 4px 12px 4px;
 }
+
+/* Chapter 14: Lists, tables and forms */
+/* 1. Bullet point styles */
+ol {
+  list-style-type: lower-roman;
+}
+
+/* 2. Positioning the marker */
+ul {
+  width: 150px;
+}
+
+li {
+  margin: 10px;
+}
+
+ul.illuminations {
+  list-style-position: outside;
+}
+
+ul.season {
+  list-style-position: inside;
+}
