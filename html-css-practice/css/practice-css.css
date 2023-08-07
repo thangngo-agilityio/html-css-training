@@ -202,3 +202,26 @@ p {
   min-height: 10px;
   max-height: 30px;
 }
+
+/* 4. Overflowing content */
+p.one {
+  overflow: hidden;
+}
+
+p.two {
+  overflow: scroll;
+}
+
+/* 5. Border width */
+
+.border-width p.one {
+  border-width: 2px;
+}
+
+.border-width p.two {
+  border-width: thick;
+}
+
+.border-width p.three {
+  border-width: 1px 4px 12px 4px;
+}
