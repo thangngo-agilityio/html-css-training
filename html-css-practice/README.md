@@ -28,19 +28,19 @@ This is the HTML/CSS training plan for Tuan.Phan. This is the plan with default 
 - [x] Chapter 2: Text
 - [x] Chapter 3: Lists
 - [x] Chapter 4: Links
-- [ ] Chapter 5: Images
-- [ ] Chapter 6: Tables
-- [ ] Chapter 7: Forms
-- [ ] Chapter 8: Extra Markup
-- [ ] Chapter 9: Flash, Video & Audio (no need to focus on Flash)
-- [ ] Chapter 10: Introducing CSS
-- [ ] Chapter 11: Color
-- [ ] Chapter 12: Text
-- [ ] Chapter 13: Boxes
-- [ ] Chapter 14: Lists, Tables & Forms
-- [ ] Chapter 15: Layout
-- [ ] Chapter 16: Images
-- [ ] Chapter 17: HTML5 Layout
+- [x] Chapter 5: Images
+- [x] Chapter 6: Tables
+- [x] Chapter 7: Forms
+- [x] Chapter 8: Extra Markup
+- [x] Chapter 9: Flash, Video & Audio (no need to focus on Flash)
+- [x] Chapter 10: Introducing CSS
+- [x] Chapter 11: Color
+- [x] Chapter 12: Text
+- [x] Chapter 13: Boxes
+- [x] Chapter 14: Lists, Tables & Forms
+- [x] Chapter 15: Layout
+- [x] Chapter 16: Images
+- [x] Chapter 17: HTML5 Layout
 - [ ] Chapter 18: Process & Design
 
 ### CSS layout
