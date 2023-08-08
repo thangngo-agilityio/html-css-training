@@ -41,20 +41,20 @@ This is the HTML/CSS training plan for Tuan.Phan. This is the plan with default 
 - [x] Chapter 15: Layout
 - [x] Chapter 16: Images
 - [x] Chapter 17: HTML5 Layout
-- [ ] Chapter 18: Process & Design
+- [x] Chapter 18: Process & Design
 
 ### CSS layout
 1. Flexbox in CSS
     - Reference link:
-        - [ ] [CSS Flexible Box Layout](https://drafts.csswg.org/css-flexbox/)
-        - [ ] [Flexbox Cheat Sheet](https://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
+        - [x] [CSS Flexible Box Layout](https://drafts.csswg.org/css-flexbox/)
+        - [x] [Flexbox Cheat Sheet](https://www.sketchingwithcss.com/samplechapter/cheatsheet.html)
 2. CSS Naming convention and Style Guide
     - Reference link:
-        - [ ] [CSS Guidelines ](http://cssguidelin.es/)
-        - [ ] [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
+        - [x] [CSS Guidelines ](http://cssguidelin.es/)
+        - [x] [Google HTML/CSS Style Guide](https://google.github.io/styleguide/htmlcssguide.html)
 
 ## RESPONSIVE WEB DESIGN (1 day)
-- [ ] [Responsive Web Design Basics](https://developers.google.com/web/fundamentals/design-and-ux/responsive)
+- [x] [Responsive Web Design Basics](https://developers.google.com/web/fundamentals/design-and-ux/responsive)
 
 ## BIG PRACTICE
 ### Design
