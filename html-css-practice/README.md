@@ -71,3 +71,27 @@ Update later
 - Apply mobile-first for practice
 - Responsive (Mobile, Tablet, Desktop)
 - Cross browser testing (Chrome, Microsoft Edge, Safari, Firefox latest version)
+### Open questions
+1. [x] [Should we use tables in HTML? Why?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/24)
+2. [x] [What HTML tags have property display: inline, block, inline-block?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/25)
+3. [x] [When will we use section, and article tags?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/26)
+4. [x] [How to use :before, :after CSS properties?](hhttps://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/27)
+5. [x] [List all units in CSS.](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/28)
+6. [x] [What is the difference between position: absolute, relative, fixed?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/29)
+7. [x] [How does the z-index property work?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/30)
+8. [x] [How to add a google font to the CSS?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/31)
+9. [x] [What is the level of nesting CSS we should use? Why?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/32)
+10. [x] [Should we use sprite-css? Why?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/33)
+11. [x] [List HTML validation tools you know.](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/34)
+12. [x] [How to config CSS only to work on devices?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/35)
+13. [x] [How to use media query: min-width, max-width?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/36)
+14. [x] [Write a media query have conditional “or” and “and”](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/37)
+15. [x] [What is the grid system?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/38)
+16. [x] [How to use icon font?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/39)
+
+### Some keywords or things you should know below:
+- [x] [How to set a viewport?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/40)
+- [x] [Why are smartphones important?](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/41)
+- [x] [Media queries](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/42)
+- [x] [Breakpoints](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/43)
+- [x] [Images responsive](https://gitlab.asoft-python.com/thang.ngo/html-css-training/-/issues/44)

@@ -162,6 +162,77 @@
       <li>Autumn already! ...</li>
     </ul>
   </div>
+  <hr>
+  <!-- CSS Layout -->
+  <!-- CSS Flexible Box Layout -->
+  <!-- 1. Flex containers -->
+  <section>
+    <h2>CSS Layout</h2>
+    <h3>1. Flex containers</h3>
+    <div style="display: flex;">
+      <!-- flex item: block child -->
+      <div id="item1">block</div>
+
+      <!-- flex item: floated element; floating is ignored -->
+      <div id="item2" style="float: left;">float</div>
+
+      <!-- flex item: anonymous block box around inline content -->
+      anonymous item 3
+
+      <!-- flex item: inline child -->
+      <span>
+        item 4
+        <!-- flex items do not split around blocks -->
+        <q style="display: block" id=not-an-item>item 4</q>
+        item 4
+      </span>
+    </div>
+    <!-- 2. Flex flow direction: the 'flex-direction' property -->
+    <div>
+      <h3>2. Flex flow direction: the 'flex-direction' property</h3>
+      <ul class="list-flow">
+        <li class="flow-item">item 1</li>
+        <li class="flow-item">item 2</li>
+        <li class="flow-item">item 3</li>
+        <li class="flow-item">item 4</li>
+        <li class="flow-item">item 5</li>
+        <li class="flow-item">item 6</li>
+      </ul>
+    </div>
+    <div>
+      <h3>3. Flex wrap</h3>
+      <ul class="list-wrap">
+        <li class="flow-item">item 1</li>
+        <li class="flow-item">item 2</li>
+        <li class="flow-item">item 3</li>
+        <li class="flow-item">item 4</li>
+        <li class="flow-item">item 5</li>
+        <li class="flow-item">item 6</li>
+      </ul>
+    </div>
+    <div>
+      <h3>4. Justify-content</h3>
+      <ul class="list-justify">
+        <li class="flow-item">item 1</li>
+        <li class="flow-item">item 2</li>
+        <li class="flow-item">item 3</li>
+        <li class="flow-item">item 4</li>
+        <li class="flow-item">item 5</li>
+        <li class="flow-item">item 6</li>
+      </ul>
+    </div>
+    <div>
+      <h3>5. Align-items</h3>
+      <ul class="list-align">
+        <li class="flow-item">item 1</li>
+        <li class="flow-item">item 2</li>
+        <li class="flow-item">item 3</li>
+        <li class="flow-item">item 4</li>
+        <li class="flow-item">item 5</li>
+        <li class="flow-item">item 6</li>
+      </ul>
+    </div>
+  </section>
 </body>
 
 </html>
