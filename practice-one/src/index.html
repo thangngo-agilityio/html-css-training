@@ -1,59 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/main.css" />
+    <title>Practice one</title>
+  </head>
 
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" href="css/main.css">
-  <title>Practice one</title>
-</head>
-
-<body>
-  <div class="container">
-    <header>
-      <div class="header-wrapper">
-        <nav class="header-navigation">
-          <ul>
-            <li><a href="">Çözüm ve Hizmetler</a></li>
-            <li><a href="">Ürünler</a></li>
-            <li><a href="">Teknolojiler</a></li>
-            <li><a href="">İnsan Kaynakları</a></li>
-            <li><a href="">Kurumsal</a></li>
-          </ul>
-        </nav>
-        <!-- <a href="javascript:void(0)" class="button-common-primary">
-          <span class="button-wrapper">İletişim</span>
-        </a> -->
-        <include src="./components/button.html">{
-          "text": "İletişim"
-          }</include>
-      </div>
-    </header>
-  </div>
+  <body>
+    <div class="container">
+      <include src="./components/header.html"></include>
+    </div>
+  </body>
   <script src="./js/main.js" type="module"></script>
-  <script type="module">
-    // Import the functions you need from the SDKs you need
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-app.js";
-    import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.1.0/firebase-analytics.js";
-    // TODO: Add SDKs for Firebase products that you want to use
-    // https://firebase.google.com/docs/web/setup#available-libraries
-
-    // Your web app's Firebase configuration
-    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-    const firebaseConfig = {
-      apiKey: "AIzaSyBd6ZnIiduy0IL0LbHEaop5p1H1IgnlJVY",
-      authDomain: "html-css-practice-2a111.firebaseapp.com",
-      projectId: "html-css-practice-2a111",
-      storageBucket: "html-css-practice-2a111.appspot.com",
-      messagingSenderId: "813994063343",
-      appId: "1:813994063343:web:486b489f69a8926f0a721a",
-      measurementId: "G-SXCFPGYSGE"
-    };
-
-    // Initialize Firebase
-    const app = initializeApp(firebaseConfig);
-    const analytics = getAnalytics(app);
-  </script>
-</body>
-
 </html>
