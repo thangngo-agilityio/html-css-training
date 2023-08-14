@@ -1,0 +1,11 @@
+{
+  "name": "html-css-practice",
+  "version": "1.0.0",
+  "description": "## OVERVIEW This is the HTML/CSS training plan for Tuan.Phan. This is the plan with default estimation but trainee can move fast if possible. - Timeline: ~3 weeks (02/08/2023)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

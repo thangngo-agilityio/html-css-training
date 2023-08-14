@@ -1,11 +1,616 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>HTML/CSS Training</title>
-  </head>
-  <body>
-    
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>This is the Title of the Page</title>
+  <!-- Chapter 8: Extra Markup | 7. Information about your pages -->
+  <meta name="description" content="An Essay on Installation Art" />
+  <meta name="keywords" content="installation, art, opinion" />
+  <meta name="robots" content="nofollow" />
+  <meta http-equiv="author" content="Jon Duckett" />
+  <meta http-equiv="pragma" content="no-cache" />
+  <meta http-equiv="expires" content="Fri, 04 Apr 2014 23:59:59 GMT" />
+  <!-- End chapter 8 -->
+</head>
+
+<body>
+  <h1>This is the Body of the page</h1>
+  <p>Anything within the body of a web page is displayed in the main browser window.</p>
+
+  <a href="practice-css.html">
+    <h2>Practice CSS</h2>
+  </a>
+  <hr>
+  <!-- Chapter 2: Text -->
+  <section>
+    <div>
+      <h1>Chapter 2: Text | this is a Level 1 Heading</h1>
+      <div>
+        <h2>this is a Level 2 Heading</h2>
+        <h3>this is a Level 3 Heading</h3>
+        <h4>this is a Level 4 Heading</h4>
+        <h5>this is a Level 5 Heading</h5>
+        <h6>this is a Level 6 Heading</h6>
+      </div>
+    </div>
+    <div>
+      <h2>2. Bold & Italic</h2>
+      <div>
+        <h3>Bold</h3>
+        <p>this is how we make a word appear <b>bold.</b></p>
+      </div>
+    </div>
+    <div>
+      <h2>3. Superscript & Subscript</h2>
+      <div>
+        <h3>- Superscript</h3>
+        <p>On the 4<sup>th</sup> of September you will learn about E=MC<sup>2</sup>.</p>
+      </div>
+      <div>
+        <h3>- Subscript</h3>
+        <p>The amount of CO<sub>2</sub> in the atmosphere grew by 2ppm in 2009<sub>1</sub>.</p>
+      </div>
+    </div>
+    <div>
+      <h2>4. Line breaks & Horizontal rules</h2>
+      <div>
+        <h3>- line breaks</h3>
+        <p>The Earth<br />gets one hundred tons heavier every day<br />due to falling space dust.</p>
+      </div>
+      <div>
+        <h3>- Horizontal</h3>
+        <p>Venus is the only planet that rotates clockwise.</p>
+        <hr />
+        <p>Jupiter is bigger than all the other planets combined.</p>
+      </div>
+    </div>
+    <div>
+      <h2>5. Strong & Emphasis</h2>
+      <div>
+        <h3>- Strong</h3>
+        <p><strong>Beware:</strong> Pickpockets operate in this area.</p>
+      </div>
+      <div>
+        <h3>- Emphasis</h3>
+        <p>I <em>think</em> Ivy was the first.</p>
+        <p>I think <em>Ivy</em> was the first.</p>
+        <p>I think Ivy was the <em>first</em>.</p>
+      </div>
+    </div>
+    <div>
+      <h2>6. Quotations</h2>
+      <div>
+        <blockquote cite="http://en.wikipedia.org/wiki/Winnie-the-Pooh">
+          <p>Did you ever stop to think, and forget to start again?</p>
+        </blockquote>
+        <p>As A.A. Milne said, <q>Some people talk to animals. Not many listen though. That's the problem.</q></p>
+      </div>
+    </div>
+    <div>
+      <h2>7. Abbreviations & Acronyms</h2>
+      <p><abbr title="Professor">Prof</abbr> Stephen Hawking is a theoretical physicist and cosmologist.</p>
+      <p><acronym title="National Aeronautics and Space Administration">NASA</acronym> do some crazy space stuff.</p>
+    </div>
+    <div>
+      <h2>8. Citations & Definitions</h2>
+      <div>
+        <h3>- Citations</h3>
+        <p><cite>A Brief History of Time</cite> by Stephen Hawking has sold over ten million copies worldwide.</p>
+      </div>
+      <div>
+        <h3>- Definitions</h3>
+        <p>A <dfn>black hole</dfn> is a region of space from which nothing, not even light, can escape.</p>
+      </div>
+    </div>
+    <div>
+      <h2>9. Author details</h2>
+      <address>
+        <p><a href="mailto:homer@example.org"> homer@example.org</a></p>
+        <p>742 Evergreen Terrace, Springfield.</p>
+      </address>
+    </div>
+    <div>
+      <h2>10. Changes to content</h2>
+      <p>It was the <del>worst</del> <ins>best</ins> idea she had ever had.</p>
+    </div>
+  </section>
+  <hr>
+  <!-- Chapter 3: Lists -->
+  <section>
+    <h2>Chapter 3: Lists</h2>
+    <div>
+      <h3>1. Ordered Lists</h3>
+      <div>
+        <ol>
+          <li>Chop potatoes into quarters</li>
+          <li>Simmer in salted water for 15-20 minutes until tender</li>
+          <li>Heat milk, butter and nutmeg</li>
+          <li>Drain potatoes and mash</li>
+          <li>Mix in the milk mixture</li>
+        </ol>
+      </div>
+    </div>
+    <div>
+      <h3>2. Unordered Lists</h3>
+      <div>
+        <ul>
+          <li>1kg King Edward potatoes</li>
+          <li>100ml milk</li>
+          <li>50g salted butter</li>
+          <li>Freshly grated nutmeg</li>
+          <li>Salt and pepper to taste</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3>3. Definition Lists</h3>
+      <dl>
+        <dt>Sashimi</dt>
+        <dd>Sliced raw fish that is served with condiments such as shredded daikon radish or ginger root, wasabi and soy
+          sauce</dd>
+        <dt>Scale</dt>
+        <dd>A device used to accurately measure the weight of ingredients</dd>
+        <dd>A technique by which the scales are removed from the skin of a fish</dd>
+        <dt>Scamorze</dt>
+        <dt>Scamorzo</dt>
+        <dd>An Italian cheese usually made from whole cow's milk (although it was traditionally made from buffalo milk)
+        </dd>
+      </dl>
+    </div>
+    <div>
+      <h3>4. Nested Lists</h3>
+      <ul>
+        <li>Mousses</li>
+        <li>Pastries
+          <ul>
+            <li>Croissant</li>
+            <li>Mille-feuille</li>
+            <li>Palmier</li>
+            <li>Profiterole</li>
+          </ul>
+        </li>
+        <li>Tarts</li>
+      </ul>
+    </div>
+  </section>
+  <hr>
+  <!-- Chapter 4: Links -->
+  <section>
+    <h2>Chapter 4: Links</h2>
+    <div>
+      <h3>1. Linking to other sites</h3>
+      <p>Movie Reviews:
+      <ul>
+        <li><a href="http://www.empireonline.com">Empire</a></li>
+        <li><a href="http://www.metacritic.com">Metacritic</a></li>
+        <li><a href="http://www.rottentomatoes.com">Rotten Tomatoes</a></li>
+        <li><a href="http://www.variety.com">Variety</a></li>
+      </ul>
+      </p>
+    </div>
+    <div>
+      <h3>2. Linking to other pages</h3>
+      <p>
+      <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="about-us.html">About</a></li>
+        <li><a href="movies.html">Movies</a></li>
+        <li><a href="contact.html">Contact</a></li>
+      </ul>
+      </p>
+    </div>
+  </section>
+  <hr>
+  <!-- Chapter 5: Images -->
+  <section>
+    <h2>Chapter 5: Images</h2>
+    <div>
+      <h3>1. Adding images</h3>
+      <img
+        src="https://media.gettyimages.com/id/1326791987/photo/quokka-family.jpg?s=1024x1024&w=gi&k=20&c=d2w1D6LHhqlHp_Y_fz1ymi_Q8D2CLpgokbQMXvHIPT4="
+        alt="A family of quokka"
+        title="The quokka is an Australian marsupial that is similar in size to the domestic cat." />
+    </div>
+    <div>
+      <h3>2. Height & width of images</h3>
+      <img
+        src="https://media.gettyimages.com/id/1326791987/photo/quokka-family.jpg?s=1024x1024&w=gi&k=20&c=d2w1D6LHhqlHp_Y_fz1ymi_Q8D2CLpgokbQMXvHIPT4="
+        alt="A family of quokka" width="600" height="450" />
+    </div>
+    <div>
+      <h3>3. HTML5: Figure and figure caption</h3>
+      <figure>
+        <img
+          src="https://media.gettyimages.com/id/1326791987/photo/quokka-family.jpg?s=1024x1024&w=gi&k=20&c=d2w1D6LHhqlHp_Y_fz1ymi_Q8D2CLpgokbQMXvHIPT4="
+          alt="Photograph of two sea otters floating in water">
+        <br />
+        <figcaption>Sea otters hold hands when they sleep so they don't drift away from each other.</figcaption>
+      </figure>
+    </div>
+  </section>
+  <hr>
+  <!-- Chapter 6: Tables -->
+  <section>
+    <h2>Chapter 6: Tables</h2>
+    <div>
+      <h3>1. Basic table structure</h3>
+      <table>
+        <tr>
+          <td>15</td>
+          <td>15</td>
+          <td>30</td>
+        </tr>
+        <tr>
+          <td>45</td>
+          <td>60</td>
+          <td>45</td>
+        </tr>
+        <tr>
+          <td>60</td>
+          <td>90</td>
+          <td>90</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h3>2. Table headings</h3>
+      <table>
+        <tr>
+          <th></th>
+          <th scope="col">Saturday</th>
+          <th scope="col">Sunday</th>
+        </tr>
+        <tr>
+          <th scope="row">Tickets sold:</th>
+          <td>120</td>
+          <td>135</td>
+        </tr>
+        <tr>
+          <th scope="row">Total sales:</th>
+          <td>$600</td>
+          <td>$675</td>
+        </tr>
+      </table>
+    </div>
+    <div>
+      <h3>3. long table</h3>
+      <table>
+        <thead>
+          <tr>
+            <th>Date</th>
+            <th>Income</th>
+            <th>Expenditure</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <th>1st January</th>
+            <td>250</td>
+            <td>36</td>
+          </tr>
+          <tr>
+            <th>2nd January</th>
+            <td>285</td>
+            <td>48</td>
+          </tr>
+          <!-- additional rows as above -->
+          <tr>
+            <th>31st January</th>
+            <td>129</td>
+            <td>64</td>
+          </tr>
+        </tbody>
+        <tfoot>
+          <tr>
+            <td></td>
+            <td>7824</td>
+            <td>1241</td>
+          </tr>
+        </tfoot>
+      </table>
+    </div>
+  </section>
+  <hr>
+  <!-- Chapter 7: Forms -->
+  <section>
+    <h2>Chapter 7: Forms</h2>
+    <!-- Form structure -->
+    <div>
+      <h3>1. Form structure</h3>
+      <form action="http://www.example.com/subscribe.php" method="get">
+        <p>This is where the form controls will appear.</p>
+      </form>
+    </div>
+    <!-- Text input -->
+    <div>
+      <h3>2. Text input</h3>
+      <form action="http://www.example.com/login.php">
+        <p>Username:<input type="text" name="username" size="15" maxlength="30" /></p>
+      </form>
+    </div>
+    <!-- Password input -->
+    <div>
+      <h3>3. Password input</h3>
+      <form action="http://www.example.com/login.php">
+        <p>Username:
+          <input type="text" name="username" size="15" maxlength="30" />
+        </p>
+        <p>Password:
+          <input type="password" name="password" size="15" maxlength="30" />
+        </p>
+      </form>
+    </div>
+    <!-- Text area -->
+    <div>
+      <h3>4. Text area</h3>
+      <form action="http://www.example.com/comments.php">
+        <p>What did you think of this gig?</p>
+        <textarea name="comments" cols="20" rows="4" placeholder="Enter your comments..."></textarea>
+      </form>
+    </div>
+    <!-- Radio button -->
+    <div>
+      <h3>5. Radio button</h3>
+      <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite genre:
+          <br />
+          <input type="radio" name="genre" value="rock" checked="checked" /> Rock
+          <input type="radio" name="genre" value="pop" />
+          Pop
+          <input type="radio" name="genre" value="jazz" />
+          Jazz
+        </p>
+      </form>
+    </div>
+    <!-- Checkbox -->
+    <div>
+      <h3>6. Checkbox</h3>
+      <form action="http://www.example.com/profile.php">
+        <p>Please select your favorite music service(s):
+          <br />
+          <input type="checkbox" name="service" value="itunes" checked="checked" /> iTunes
+          <input type="checkbox" name="service" value="lastfm" /> Last.fm
+          <input type="checkbox" name="service" value="spotify" /> Spotify
+        </p>
+      </form>
+    </div>
+    <!-- Drop down list box -->
+    <div>
+      <h3>7. Drop down list box </h3>
+      <form action="http://www.example.com/profile.php">
+        <p>What device do you listen to music on?</p>
+        <select name="devices">
+          <option value="ipod">iPod</option>
+          <option value="radio">Radio</option>
+          <option value="computer">Computer</option>
+        </select>
+      </form>
+    </div>
+    <!-- File input box -->
+    <div>
+      <h3>8. File input box</h3>
+      <form action="http://www.example.com/upload.php" method="post">
+        <p>Upload your song in MP3 format:</p>
+        <input type="file" name="user-song" /><br />
+        <input type="submit" value="Upload" />
+      </form>
+    </div>
+    <!-- Submit button -->
+    <div>
+      <h3>9. Submit button</h3>
+      <form action="http://www.example.com/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="submit" name="subscribe" value="Subscribe" />
+      </form>
+    </div>
+    <!-- Image button -->
+    <div>
+      <h3>10. Image button</h3>
+      <form action="http://www.example.org/subscribe.php">
+        <p>Subscribe to our email list:</p>
+        <input type="text" name="email" />
+        <input type="image"
+          src="https://media.gettyimages.com/id/1326791987/photo/quokka-family.jpg?s=1024x1024&w=gi&k=20&c=d2w1D6LHhqlHp_Y_fz1ymi_Q8D2CLpgokbQMXvHIPT4="
+          width="100" height="20" />
+      </form>
+    </div>
+    <!-- Button & hidden controls -->
+    <div>
+      <h3>11. Button & hidden controls</h3>
+      <form action="http://www.example.com/add.php">
+        <button><img
+            src="https://media.gettyimages.com/id/1326791987/photo/quokka-family.jpg?s=1024x1024&w=gi&k=20&c=d2w1D6LHhqlHp_Y_fz1ymi_Q8D2CLpgokbQMXvHIPT4="
+            alt="add" width="10" height="10" /> Add</button>
+        <input type="hidden" name="bookmark" value="lyrics" />
+      </form>
+    </div>
+    <!-- Labeling form controls -->
+    <div>
+      <h3>12. Labeling form controls</h3>
+      <div>
+        <label>Age: <input type="text" name="age" /></label>
+        <br />
+        Gender:
+        <input id="female" type="radio" name="gender" value="f">
+        <label for="female">Female</label>
+        <input id="male" type="radio" name="gender" value="m">
+        <label for="male">Male</label>
+      </div>
+    </div>
+    <!-- Group form elements -->
+    <div>
+      <h3>13. Group form element</h3>
+      <fieldset>
+        <legend>Contact details</legend>
+        <label>Email:<br />
+          <input type="text" name="email" /></label><br />
+        <label>Mobile:<br />
+          <input type="text" name="mobile" /></label><br />
+        <label>Telephone:<br />
+          <input type="text" name="telephone" /></label>
+      </fieldset>
+    </div>
+    <!-- HTML5: Form validation -->
+    <div>
+      <h3>14. HTML5: Form validation</h3>
+      <form action="http://www.example.com/login/" method="post">
+        <label for="username">Username:</label>
+        <input type="text" name="username" required="required" /></title><br />
+        <label for="password">Password:</label>
+        <input type="password" name="password" required="required" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <!-- HTML5: Date input -->
+    <div>
+      <h3>15. HTML5: Date input</h3>
+      <form action="http://www.example.com/bookings/" method="post">
+        <label for="username">Departure date:</label>
+        <input type="date" name="depart" />
+        <input type="submit" value="Submit" />
+      </form>
+    </div>
+    <!-- HTML5: Email & URL input -->
+    <div>
+      <h3>16. HTML5: Email & URL input</h3>
+      <div>
+        <h4>- Type email</h4>
+        <form action="http://www.example.org/subscribe.php">
+          <p>Please enter your email address:</p>
+          <input type="email" name="email" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+      <div>
+        <h4>- Type url</h4>
+        <form action="http://www.example.org/profile.php">
+          <p>Please enter your website address:</p>
+          <input type="url" name="website" />
+          <input type="submit" value="Submit" />
+        </form>
+      </div>
+    </div>
+    <!-- Search input -->
+    <div>
+      <h3>17. HTML5: Search input</h3>
+      <div>
+        <h4>- type search </h4>
+        <form action="http://www.example.org/search.php">
+          <p>Search:</p>
+          <input type="search" name="search" />
+          <input type="submit" value="Search" />
+        </form>
+      </div>
+      <div>
+        <h4>- placeholder</h4>
+        <form action="http://www.example.org/search.php">
+          <p>Search:</p>
+          <input type="search" name="search" placeholder="Enter keyword" />
+          <input type="submit" value="Search" />
+        </form>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!-- Chapter 8: Extra Markup -->
+  <section>
+    <h2>Chapter 8: Extra Markup</h2>
+    <div>
+      <h3>1. Comments in HTML</h3>
+      <div>
+        <!-- start of introduction -->
+        <h1>Current Exhibitions</h1>
+        <h2>Olafur Eliasson</h2>
+        <!-- end of introduction -->
+        <!-- start of main text -->
+        <p>Olafur Eliasson was born in Copenhagen, Denmark in 1967 to Icelandic parents.</p>
+        <p>He is known for sculptures and large-scale installation art employing elemental materials such as light,
+          water, and air temperature to enhance the viewer's experience.</p>
+        <!-- end of main text -->
+        <!-- <a href="mailto:info@example.org">Contact</a> -->
+      </div>
+    </div>
+    <div>
+      <h3>2. ID Attribute</h3>
+      <p>Water and air. So very commonplace are these substances, they hardly attract attention - and yet they vouchsafe
+        our very existence.</p>
+      <p id="pullquote">Every time I view the sea I feel a calming sense of security, as if visiting my ancestral home;
+        I embark on a voyage of seeing.</p>
+      <p>Mystery of mysteries, water and air are right there before us in the sea.</p>
+    </div>
+    <div>
+      <h3>3. Class Attribute</h3>
+      <p class="important">For a one-year period from November 2010, the Marugame Genichiro-Inokuma Museum of
+        Contemporary Art (MIMOCA) will host a cycle of four Hiroshi Sugimoto exhibitions.</p>
+      <p>Each will showcase works by the artist thematically contextualized under the headings "Science,"
+        "Architecture," "History" and "Religion" so as to present a comprehensive panorama of the artist's oeuvre.</p>
+      <p class="important admittance">Hours: 10:00 - 18:00 (No admittance after 17:30)</p>
+    </div>
+    <div>
+      <h3>4. Block elements</h3>
+      <div>
+        <h1>Hiroshi Sugimoto</h1>
+        <p>The dates for the ORIGIN OF ART exhibition are as follows:</p>
+        <ul>
+          <li>Science: 21 Nov - 20 Feb 2010/11</li>
+          <li>Architecture: 6 Mar - 15 May 2011</li>
+          <li>History: 29 May - 21 Aug 2011</li>
+          <li>Religion: 28 Aug - 6 Nov 2011</li>
+        </ul>
+      </div>
+    </div>
+    <div>
+      <h3>5. Inline elements</h3>
+      Timed to a single revolution of the planet around the sun at a 23.4 degrees tilt that plays out the rhythm of the seasons, this <em>Origins of Art</em> cycle is organized around four themes: <b>science, architecture, history</b>
+      and <b>religion</b>.
+    </div>
+    <div>
+      <h3>6. Iframe</h3>
+      <iframe width="450" height="350" src="http://maps.google.co.uk/maps?q=moma+new+york&output=embed"></iframe>
+
+      <div>
+        <h4>- scrolling, frameborder, seamless</h4>
+        <iframe src="http://maps.google.co.uk/maps?q=moma+new+york&output=embed" width="450" height="350"
+          frameborder="0" scrolling="no"></iframe>
+      </div>
+    </div>
+  </section>
+  <hr>
+  <!-- Chapter 9: Flash, video & audio -->
+  <section>
+    <h2>Chapter 9: Flash, Video & Audio</h2>
+    <div>
+      <h3>1. <span style="color: #3c78d8;">HTML5:</span> Adding video to your pages</h3>
+      <video src="video/puppy.mp4" poster="img/puppy.jpg" width="400" height="300" preload controls loop>
+        <p>A video of a puppy playing in the snow</p>
+      </video>
+    </div>
+    <div>
+      <h3>2. <span style="color: #3c78d8;">HTML5:</span> Multiple video source</h3>
+      <video poster="img/puppy.jpg" width="400" height="320" preload controls loop>
+        <source src="video/puppy.mp4" type='video/mp4;codecs="avc1.42E01E, mp4a.40.2"' />
+        <source src="video/puppy.webm" type='video/webm;codecs="vp8, vorbis"' />
+        <p>A video of a puppy playing in the snow</p>
+      </video>
+    </div>
+    <div>
+      <h3>3. <span>HTML5</span> Adding HTML5 audio to your pages</h3>
+      <audio src="audio/test-audio.ogg" controls autoplay>
+        <p>This browser does not support our audio format.</p>
+      </audio>
+    </div>
+    <div>
+      <h3>4. <span>HTML5</span> Multiple source</h3>
+      <audio controls autoplay>
+        <source src="audio/test-audio.ogg" />
+        <source src="audio/test-audio.mp3" />
+        <p>This browser does not support our audio format.</p>
+      </audio>
+    </div>
+  </section>
+</body>
+
 </html>

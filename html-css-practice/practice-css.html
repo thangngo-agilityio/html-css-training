@@ -1,0 +1,282 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/practice-css.css">
+  <title>Using External CSS</title>
+  <!-- 2. Using internal CSS -->
+  <style type="text/css">
+    body {
+      font-family: arial;
+      background-color: rgb(185, 179, 175);
+    }
+
+    h1 {
+      color: rgb(255, 255, 255);
+    }
+
+    body {
+      font-family: Georgia, Times, serif;
+    }
+
+    h1,
+    h2 {
+      font-family: Arial, Verdana, sans-serif;
+    }
+
+    .credits {
+      font-family: "Courier New", Courier, monospace;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- Chapter 10: Introducing CSS -->
+  <!-- <h1>Potatoes</h1>
+  <p>There are dozens of different potato
+    varieties. They are usually described as
+    early, second early and maincrop.</p> -->
+
+  <!-- Chapter 12: Text -->
+  <h1>Briards</h1>
+  <p class="credits">by Ivy Duckett</p>
+  <p class="intro">The <a class="breed" href="http://en.wikipedia.org/wiki/Briard">briard</a>, or berger de brie, is a
+    large breed of dog traditionally used as a herder and guardian of sheep...</p>
+
+  <div>
+    <p class="one">the briard is known as a heart wrapped in fur</p>
+    <p class="two">the briard is known as a heart wrapped in fur</p>
+    <p class="three">the briard is known as a heart wrapped in fur</p>
+    <p class="four">the briard is known as a heart wrapped in fur</p>
+    <p class="five">the briard is known as a heart wrapped in fur</p>
+  </div>
+
+  <!-- 10. first letter or line -->
+  <div>
+    <h2>10. first letter or line</h2>
+    <ul>
+      <li>
+        <a href="">the briard is known as a heart wrapped in fur</a>
+      </li>
+      <li>
+        <a href="">the briard is known as a heart wrapped in fur</a>
+      </li>
+      <li>
+        <a href="">the briard is known as a heart wrapped in fur</a>
+      </li>
+      <li>
+        <a href="">the briard is known as a heart wrapped in fur</a>
+      </li>
+      <li>
+        <a href="">the briard is known as a heart wrapped in fur</a>
+      </li>
+      <li>
+        <a href="">the briard is known as a heart wrapped in fur</a>
+      </li>
+    </ul>
+  </div>
+
+  <!-- 11. Responding to users -->
+  <div>
+    <h2>11. Responding to users</h2>
+    <input type="text">
+    <input type="submit" class="submit">
+  </div>
+
+  <!-- Chapter 13: Boxes -->
+  <!-- 1. Box dimensions -->
+  <h2>1. Box dimensions</h2>
+  <div class="box">
+    <p>The Moog company pioneered the commercial manufacture of modular voltage-controlled analog synthesizer systems in
+      the early 1950s.</p>
+  </div>
+  <!-- 2. Limiting width -->
+  <div>
+    <h2>2. Limiting width</h2>
+    <table>
+      <tr>
+        <td><img src="img/puppy.jpg" width="200" height="100" alt="Fender Rhodes" /></td>
+        <td class="description">The Rhodes piano is an electro-mechanical piano, invented by Harold Rhodes during the
+          fifties and later manufactured in a number of models ...</td>
+        <td>$1400</td>
+      </tr>
+    </table>
+  </div>
+
+  <!-- 3. Limiting height -->
+  <h2>3. Limiting height</h2>
+  <div>
+    <h3>Fender Mustang</h3>
+    <p>The Fender Mustang was introduced in 1964 as the basis of a major redesign of Fender's ...</p>
+    <h3>Fender Stratocaster</h3>
+    <p>The Fender Stratocaster or "Strat" is one of the most popular electric guitars of all time ...</p>
+    <h3>Gibson Les Paul</h3>
+    <p>The Gibson Les Paul is a solid body electric guitar that was first sold in 1952 ...</p>
+  </div>
+
+  <!-- 4. Overflowing content -->
+  <h2>4. Overflowing content</h2>
+  <div>
+    <h3>Fender Stratocaster</h3>
+    <p class="one">The Fender Stratocaster or "Strat" is one of the most popular electric guitars of all time, and its
+      design has been copied by many guitar makers. It was designed by Leo... </p>
+    <h3>Gibson Les Paul</h3>
+    <p class="two">The Gibson Les Paul is a solid body
+      electric guitar that was first sold in 1952. The Les Paul was designed by Ted McCarty... </p>
+  </div>
+
+  <!-- 5. Border width -->
+  <h2>5. Border width</h2>
+  <div class="border-width">
+    <p class="one">Hohner's "Clavinet" is essentially an electric clavichord.</p>
+    <p class="two">Hohner's "Clavinet" is essentially an electric clavichord.</p>
+    <p class="three">Hohner's "Clavinet" is essentially an electric clavichord.</p>
+  </div>
+
+  <!-- Chapter 14: Lists, tables and forms -->
+  <div>
+    <h1>The Complete Poems</h1>
+    <h2>Emily Dickinson</h2>
+    <ol>
+      <li>Life</li>
+      <li>Nature</li>
+      <li>Love</li>
+      <li>Time and Eternity</li>
+      <li>The Single Hound</li>
+    </ol>
+  </div>
+
+  <!-- 2. Positioning the marker -->
+  <div>
+    <h2>2. Positioning the marker</h2>
+    <ul class="illuminations">
+      <li>That idol, black eyes and ...</li>
+      <li>Gracious son of Pan! ...</li>
+      <li>When the world is reduced ...</li>
+    </ul>
+    <ul class="season">
+      <li>Once, if my memory serves ...</li>
+      <li>Hadn't I once a youth ...</li>
+      <li>Autumn already! ...</li>
+    </ul>
+  </div>
+  <hr>
+  <!-- CSS Layout -->
+  <!-- CSS Flexible Box Layout -->
+  <!-- 1. Flex containers -->
+  <section>
+    <h2>CSS Layout</h2>
+    <h3>1. Flex containers</h3>
+    <div style="display: flex;">
+      <!-- flex item: block child -->
+      <div id="item1">block</div>
+
+      <!-- flex item: floated element; floating is ignored -->
+      <div id="item2" style="float: left;">float</div>
+
+      <!-- flex item: anonymous block box around inline content -->
+      anonymous item 3
+
+      <!-- flex item: inline child -->
+      <span>
+        item 4
+        <!-- flex items do not split around blocks -->
+        <q style="display: block" id=not-an-item>item 4</q>
+        item 4
+      </span>
+    </div>
+    <!-- 2. Flex flow direction: the 'flex-direction' property -->
+    <div>
+      <h3>2. Flex flow direction: the 'flex-direction' property</h3>
+      <ul class="list-flow">
+        <li class="flow-item">item 1</li>
+        <li class="flow-item">item 2</li>
+        <li class="flow-item">item 3</li>
+        <li class="flow-item">item 4</li>
+        <li class="flow-item">item 5</li>
+        <li class="flow-item">item 6</li>
+      </ul>
+    </div>
+    <div>
+      <h3>3. Flex wrap</h3>
+      <ul class="list-wrap">
+        <li class="flow-item">item 1</li>
+        <li class="flow-item">item 2</li>
+        <li class="flow-item">item 3</li>
+        <li class="flow-item">item 4</li>
+        <li class="flow-item">item 5</li>
+        <li class="flow-item">item 6</li>
+      </ul>
+    </div>
+    <div>
+      <h3>4. Justify-content</h3>
+      <ul class="list-justify">
+        <li class="flow-item">item 1</li>
+        <li class="flow-item">item 2</li>
+        <li class="flow-item">item 3</li>
+        <li class="flow-item">item 4</li>
+        <li class="flow-item">item 5</li>
+        <li class="flow-item">item 6</li>
+      </ul>
+    </div>
+    <div>
+      <h3>5. Align-items</h3>
+      <ul class="list-align">
+        <li class="flow-item">item 1</li>
+        <li class="flow-item">item 2</li>
+        <li class="flow-item">item 3</li>
+        <li class="flow-item">item 4</li>
+        <li class="flow-item">item 5</li>
+        <li class="flow-item">item 6</li>
+      </ul>
+    </div>
+  </section>
+  <hr>
+  <!-- Naming conventions -->
+  <section>
+    <h2>Naming conventions</h2>
+    <div>
+      <h3>1. Hyphen Delimited</h3>
+
+      <!-- All strings in classes are delimited with a hyphen (-), like so: -->
+      <div class="page-head"></div>
+      <div class="sub-content"></div>
+
+      <!-- Camel case and underscores are not used for regular classes; the following are incorrect: -->
+      <div class="pageHead"></div>
+      <div class="sub__content"></div>
+    </div>
+
+    <div>
+      <h3>2. BEM-like Naming</h3>
+      <div class="person"></div>
+      <div class="person__head"></div>
+      <div class="person--tall"></div>
+    </div>
+
+    <div>
+      <h3>2. BEM-like Naming</h3>
+      <div class="person__eye--blue"></div>
+    </div>
+  </section>
+  <hr>
+  <!-- HTML/CSS style guide -->
+  <section>
+    <h2>HTML/CSS style guide</h2>
+    <div>
+      <h3>Protocol</h3>
+      <!-- Not recommended: omits the protocol -->
+      <script src="//ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+      <!-- Not recommended: uses HTTP -->
+      <script src="http://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+
+      <!-- Recommended -->
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+    </div>
+  </section>
+</body>
+
+</html>
