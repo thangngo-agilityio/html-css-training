@@ -1,3 +1,8 @@
+header {
+  position: relative;
+  z-index: 100;
+}
+
 .header-wrapper {
   text-align: center;
   padding: 0.9375rem 1.25rem;
@@ -45,6 +50,7 @@
   transition: 0.4s;
   width: 100%;
 }
+
 .header-wrapper .navigation-list li a:hover {
   color: #f84646;
 }
@@ -91,18 +97,22 @@
   .header-wrapper {
     justify-content: flex-end;
   }
+
   .header-wrapper .header-navigation {
     position: initial;
     margin-right: 2.5rem;
   }
+
   .hamburger {
     display: none;
   }
+
   .header-wrapper .navigation-list {
     display: flex;
     justify-content: flex-end;
     padding: 0;
   }
+
   .header-wrapper .navigation-list li {
     display: flex;
     width: max-content;
@@ -110,6 +120,7 @@
     margin: 0;
     align-items: center;
   }
+
   .header-wrapper .navigation-list li:not(:last-child) {
     margin-bottom: 0;
   }
