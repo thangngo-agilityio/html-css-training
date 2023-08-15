@@ -1,5 +1,6 @@
 /* bases */
 @import url("./bases/reset.css");
+@import url("./bases/variables.css");
 
 /* layouts */
 @import url("./Layouts/container.css");
