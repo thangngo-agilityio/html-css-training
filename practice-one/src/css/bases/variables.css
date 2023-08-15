@@ -1,0 +1,11 @@
+:root {
+  /* color */
+  --color-default: #000;
+  --color-primary: #fff;
+  --color-secondary: #f84646;
+  --color-tertiary: #e6e6e6;
+  --color-quaternary: #f8464a;
+
+  /* font-size */
+  --font-size-default: 1rem
+}
