@@ -1,0 +1,11 @@
+.button-common-primary {
+    display: flex;
+    align-items: center;
+    background-color: #f84646;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.button-common-primary .button-wrapper {
+    color: #fff;
+}

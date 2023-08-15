@@ -1,3 +1,10 @@
-.test {
-  color: green;
-}
+/* bases */
+@import url("./bases/reset.css");
+
+/* layouts */
+@import url("./Layouts/container.css");
+
+/* components */
+@import url("./components/header.css");
+@import url("./components/footer.css");
+@import url("./components/button.css");
