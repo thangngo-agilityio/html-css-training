@@ -13,14 +13,18 @@
     <include src="./components/header.html"></include>
     <main>
       <section class="section-top-keyvisual">
-        <div class="keyvisual-background">
-          <img class="is-mobile" src="./assets/images/sp/img_top_keyvisual.jpg" width="375" height="601" alt="Bilgi Teknolojilerinde 23 Yıllık Tecrübe">
-          <img class="is-desktop" src="./assets/images/img_top_keyvisual.jpg" width="1440" height="754" alt="Bilgi Teknolojilerinde 23 Yıllık Tecrübe">
-        </div>
+        <picture class="keyvisual-background">
+          <source media="(min-width: 768px)" srcset="./assets/images/img_top_keyvisual.jpg">
+          <img src="./assets/images/sp/img_top_keyvisual.jpg" width="375" height="601" loading="eager"
+            alt="Bilgi Teknolojilerinde 23 Yıllık Tecrübe">
+        </picture>
         <div class="wrapper">
           <div class="keyvisual-content">
             <h1 class="keyvisual-title">Bilgi<br class="is-mobile"> Teknolojilerinde <br>23 Yıllık Tecrübe</h1>
-            <p class="keyvisual-detail">Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri<br class="is-mobile"> için farklı<br class="is-desktop"> sektörlerde tecrübe kazanmış uzman<br class="is-mobile"> kadrolarımızla Proje Yönetimi, İş <br class="is-desktop"> Analizi ve Test Yönetimi<br class="is-mobile">hizmetleri sunmaktayız.</p>
+            <p class="keyvisual-detail">Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri<br
+                class="is-mobile"> için farklı<br class="is-desktop"> sektörlerde tecrübe kazanmış uzman<br
+                class="is-mobile"> kadrolarımızla Proje Yönetimi, İş <br class="is-desktop"> Analizi ve Test Yönetimi<br
+                class="is-mobile">hizmetleri sunmaktayız.</p>
             <form action="POST" class="keyvisual-register">
               <input type="email" class="register-input" placeholder="Mail bültenimize kayıt ol">
               <button type="submit" class="button-common-primary">
@@ -28,6 +32,62 @@
               </button>
             </form>
           </div>
+        </div>
+      </section>
+      <section class="section-top-manage">
+        <div class="wrapper">
+          <div class="manage-heading">
+            <h2 class="title-common-primary">Kalite ve Süreç Yönetimi</h2>
+            <p class="detail-common-primary">Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri<br class="is-mobile"> için farklı sektörlerde tecrübe kazanmış uzman<br class="is-mobile"> kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
+          </div>
+          <ul class="manage-list">
+            <li>
+              <picture class="manage-icon">
+                <img src="./assets/icons/icon_manage_01.svg" width="88" height="82" loading="lazy"
+                  alt="Döküman Analizi">
+              </picture>
+              <h3 class="manage-title">Döküman Analizi</h3>
+              <p class="manage-detail">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
+            </li>
+            <li>
+              <picture class="manage-icon">
+                <img src="./assets/icons/icon_manage_02.svg" width="88" height="82" loading="lazy"
+                  alt="Kabul ve Değerlendirme">
+              </picture>
+              <h3 class="manage-title">Kabul ve Değerlendirme</h3>
+              <p class="manage-detail">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
+            </li>
+            <li>
+              <picture class="manage-icon">
+                <img src="./assets/icons/icon_manage_03.svg" width="88" height="82" loading="lazy"
+                  alt="İş Kuralları Analizi">
+              </picture>
+              <h3 class="manage-title">İş Kuralları Analizi</h3>
+              <p class="manage-detail">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
+            </li>
+            <li>
+              <picture class="manage-icon">
+                <img src="./assets/icons/icon_manage_04.svg" width="88" height="82" loading="lazy"
+                  alt="Akış Diyagramları">
+              </picture>
+              <h3 class="manage-title">Akış Diyagramları</h3>
+              <p class="manage-detail">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
+            </li>
+            <li>
+              <picture class="manage-icon">
+                <img src="./assets/icons/icon_manage_05.svg" width="88" height="82" loading="lazy" alt="Paydaş Analizi">
+              </picture>
+              <h3 class="manage-title">Paydaş Analizi</h3>
+              <p class="manage-detail">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
+            </li>
+            <li>
+              <picture class="manage-icon">
+                <img src="./assets/icons/icon_manage_06.svg" width="88" height="82" loading="lazy" alt="Prototipleme">
+              </picture>
+              <h3 class="manage-title">Prototipleme</h3>
+              <p class="manage-detail">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
+            </li>
+          </ul>
         </div>
       </section>
     </main>

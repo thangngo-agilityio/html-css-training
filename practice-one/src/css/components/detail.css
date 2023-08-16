@@ -1,0 +1,13 @@
+.detail-common-primary {
+  color: var(--color-default);
+  font-weight: 400;
+  font-size: .75rem;
+  margin-bottom: 2.5rem;
+  line-height: calc(22 / 12);
+}
+
+@media screen and (min-width: 768px) {
+  .detail-common-primary {
+    font-size: 1.5rem;
+  }
+}
