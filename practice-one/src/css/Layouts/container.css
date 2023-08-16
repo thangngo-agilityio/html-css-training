@@ -6,11 +6,13 @@
 .wrapper {
     padding-left: 1.25rem;
     padding-right: 1.25rem;
+    margin: 0 auto;
+
 }
 
 @media screen and (min-width: 768px) {
     .container {
-        max-width: 1028px;
+        min-width: 768px;
     }
     .wrapper {
         max-width: 906px;
@@ -19,7 +21,7 @@
 
 @media screen and (min-width: 1028px) {
     .container {
-        max-width: 1440px;
+        min-width: 1028px;
     }
     .wrapper {
         max-width: 1197px;

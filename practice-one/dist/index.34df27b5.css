@@ -46,19 +46,25 @@ button:disabled, button[disabled] {
   pointer-events: none;
 }
 
+@font-face {
+  font-family: Manrope;
+  src: url("Manrope-VariableFont_wght.f5a5797b.ttf");
+}
+
 .container {
   min-width: 320px;
   margin: 0 auto;
 }
 
 .wrapper {
+  margin: 0 auto;
   padding-left: 1.25rem;
   padding-right: 1.25rem;
 }
 
 @media screen and (width >= 768px) {
   .container {
-    max-width: 1028px;
+    min-width: 768px;
   }
 
   .wrapper {
@@ -68,7 +74,7 @@ button:disabled, button[disabled] {
 
 @media screen and (width >= 1028px) {
   .container {
-    max-width: 1440px;
+    min-width: 1028px;
   }
 
   .wrapper {
@@ -175,7 +181,9 @@ header {
 
   .header-wrapper .header-navigation {
     position: initial;
+    background: none;
     margin-right: 2.5rem;
+    transition: none;
   }
 
   .hamburger {
@@ -207,8 +215,9 @@ header {
   cursor: pointer;
   background-color: #f84646;
   border-radius: 5px;
+  flex: none;
   align-items: center;
-  padding: 10px 20px;
+  padding: .625rem 1.25rem;
   transition: all .4s;
   display: flex;
 }
@@ -259,8 +268,29 @@ header {
 
 .section-top-keyvisual .keyvisual-detail {
   text-align: center;
+  margin-bottom: 2.625rem;
   font-size: .75rem;
   font-weight: 400;
+}
+
+.section-top-keyvisual .keyvisual-register {
+  background-color: #fff;
+  border-radius: 5px;
+  justify-content: space-between;
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px 5px 5px 20px;
+  display: flex;
+}
+
+.section-top-keyvisual .register-input {
+  box-sizing: border-box;
+  width: 100%;
+  margin-right: 10px;
+}
+
+.section-top-keyvisual .is-desktop {
+  display: none;
 }
 
 @media screen and (width <= 374px) {
@@ -270,14 +300,38 @@ header {
 }
 
 @media screen and (width >= 768px) {
+  .section-top-keyvisual {
+    top: -80px;
+  }
+
   .section-top-keyvisual .is-mobile {
     display: none;
   }
-}
 
-@font-face {
-  font-family: Manrope;
-  src: url("Manrope-VariableFont_wght.f5a5797b.ttf");
+  .section-top-keyvisual .is-desktop {
+    display: block;
+  }
+
+  .section-top-keyvisual .keyvisual-content {
+    width: 665px;
+  }
+
+  .section-top-keyvisual .keyvisual-title {
+    text-align: left;
+    margin-bottom: 1.25rem;
+    font-size: 3.5rem;
+  }
+
+  .section-top-keyvisual .keyvisual-detail {
+    text-align: left;
+    margin-bottom: 1.25rem;
+    font-size: 1rem;
+  }
+
+  .section-top-keyvisual .keyvisual-register {
+    width: 293px;
+    margin: 0;
+  }
 }
 
 
