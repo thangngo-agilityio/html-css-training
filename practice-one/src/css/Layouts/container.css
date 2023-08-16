@@ -1,3 +1,7 @@
+body {
+    font-family: Manrope, sans-serif;
+}
+
 .container {
     min-width: 320px;
     margin: 0 auto;
@@ -9,10 +13,12 @@ main {
 }
 
 .wrapper {
-    padding-left: 1.25rem;
-    padding-right: 1.25rem;
+    padding: 0 1.25rem;
     margin: 0 auto;
+}
 
+.is-desktop {
+    display: none;
 }
 
 @media screen and (min-width: 768px) {
@@ -22,6 +28,10 @@ main {
 
     .wrapper {
         max-width: 906px;
+    }
+
+    .is-mobile {
+        display: none;
     }
 }
 

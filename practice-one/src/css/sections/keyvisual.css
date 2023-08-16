@@ -3,7 +3,6 @@
   z-index: 10;
   padding: 8.5625rem 0;
   margin-top: -4.125rem;
-  font-family: Manrope, sans-serif;
 }
 
 .section-top-keyvisual .keyvisual-background {
@@ -34,6 +33,7 @@
   font-weight: 400;
   text-align: center;
   margin-bottom: 2.625rem;
+  line-height: calc( 23 / 12 );
 }
 
 .section-top-keyvisual .keyvisual-register {
