@@ -1,0 +1,96 @@
+.section-top-keyvisual {
+  position: relative;
+  z-index: 10;
+  padding: 8.5625rem 0;
+  margin-top: -4.125rem;
+  font-family: Manrope, sans-serif;
+}
+
+.section-top-keyvisual .keyvisual-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+}
+
+.section-top-keyvisual .keyvisual-background img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.section-top-keyvisual .keyvisual-title {
+  font-size: 2.625rem;
+  color: var(--color-default);
+  font-weight: 800;
+  text-align: center;
+  margin-bottom: 1.875rem;
+}
+
+.section-top-keyvisual .keyvisual-detail {
+  font-size: 0.75rem;
+  font-weight: 400;
+  text-align: center;
+  margin-bottom: 2.625rem;
+}
+
+.section-top-keyvisual .keyvisual-register {
+  display: flex;
+  background-color: #fff;
+  width: 90%;
+  margin: 0 auto;
+  padding: 5px 5px 5px 20px;
+  border-radius: 5px;
+  justify-content: space-between;
+}
+
+.section-top-keyvisual .register-input {
+  width: 100%;
+  box-sizing: border-box;
+  margin-right: 10px;
+}
+
+.section-top-keyvisual .is-desktop {
+  display: none;
+}
+
+@media screen and (max-width: 374px) {
+  .section-top-keyvisual .keyvisual-title {
+    font-size: 2rem;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .section-top-keyvisual {
+    margin-top: -5rem;
+  }
+  .section-top-keyvisual .is-mobile {
+    display: none;
+  }
+
+  .section-top-keyvisual .is-desktop {
+    display: block;
+  }
+
+  .section-top-keyvisual .keyvisual-content {
+    width: 665px;
+  }
+
+  .section-top-keyvisual .keyvisual-title {
+    font-size: 3.5rem;
+    text-align: left;
+    margin-bottom: 1.25rem;
+  }
+  .section-top-keyvisual .keyvisual-detail {
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: 1.25rem;
+  }
+
+  .section-top-keyvisual .keyvisual-register {
+    width: 293px;
+    margin: 0;
+  }
+}

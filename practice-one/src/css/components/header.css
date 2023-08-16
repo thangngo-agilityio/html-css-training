@@ -1,0 +1,137 @@
+header {
+  position: relative;
+  z-index: 100;
+}
+
+.header-wrapper {
+  text-align: center;
+  padding: 0.9375rem 1.25rem;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.header-wrapper .header-navigation {
+  position: fixed;
+  top: 0;
+  right: 100%;
+  z-index: 98;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  min-height: 100%;
+  overflow-y: auto;
+  display: block;
+  transition: 0.4s;
+}
+
+.header-wrapper .header-navigation.is-active {
+  right: 0;
+}
+
+.header-wrapper .navigation-list {
+  margin-bottom: 3.125rem;
+  list-style: none;
+  margin-bottom: 0;
+  padding: 100px 0;
+}
+
+.header-wrapper .navigation-list li {
+  width: 70%;
+  height: 1.875rem;
+  margin: 0 auto;
+}
+
+.header-wrapper .navigation-list li:not(:last-child) {
+  margin-bottom: 1.25rem;
+}
+
+.header-wrapper .navigation-list li a {
+  color: var(--color-default);
+  transition: 0.4s;
+  width: 100%;
+}
+
+.header-wrapper .navigation-list li a:hover {
+  color: var(--color-secondary);
+}
+
+.hamburger {
+  display: block;
+  width: 35px;
+  height: 35px;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+  outline: none;
+  border: none;
+  position: relative;
+  z-index: 100;
+}
+
+.hamburger .bar,
+.hamburger:after,
+.hamburger:before {
+  content: "";
+  display: block;
+  width: 22px;
+  height: 2px;
+  border-radius: 30px;
+  background-color: var(--color-default);
+  margin: 6px 0px;
+  transition: 0.4s;
+}
+
+.hamburger.is-active .bar {
+  opacity: 0;
+}
+
+.hamburger.is-active:before {
+  transform: rotate(-45deg) translate(-9px, 5px);
+}
+
+.hamburger.is-active:after {
+  transform: rotate(45deg) translate(-6px, -3px);
+}
+
+@media screen and (min-width: 768px) {
+  .header-wrapper {
+    justify-content: flex-end;
+    max-width: 906px;
+  }
+
+  .header-wrapper .header-navigation {
+    position: initial;
+    margin-right: 2.5rem;
+    background: none;
+    transition: none;
+  }
+
+  .hamburger {
+    display: none;
+  }
+
+  .header-wrapper .navigation-list {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0;
+  }
+
+  .header-wrapper .navigation-list li {
+    display: flex;
+    width: max-content;
+    padding: .625rem 1.25rem;
+    margin: 0;
+    align-items: center;
+  }
+
+  .header-wrapper .navigation-list li:not(:last-child) {
+    margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .header-wrapper {
+    max-width: 1197px;
+  }
+}
