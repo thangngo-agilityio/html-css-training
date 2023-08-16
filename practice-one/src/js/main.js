@@ -1,5 +1,5 @@
 window.onload = function () {
-  const menu_btn = document.querySelector('.hamburger');
+  const menu_btn = document.querySelector('.button-menu');
   const mobile_menu = document.querySelector('.mobile-nav')
 
   menu_btn.addEventListener('click', function () {
