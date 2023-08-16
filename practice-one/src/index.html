@@ -11,9 +11,27 @@
 <body>
   <div class="container">
     <include src="./components/header.html"></include>
-    <include src="./components/footer.html">
-
-    </include>
+    <main>
+      <section class="section-top-keyvisual">
+        <div class="keyvisual-background">
+          <img class="is-mobile" src="./assets/images/sp/img_top_keyvisual.jpg" width="375" height="601" alt="Bilgi Teknolojilerinde 23 Yıllık Tecrübe">
+          <img class="is-desktop" src="./assets/images/img_top_keyvisual.jpg" width="1440" height="754" alt="Bilgi Teknolojilerinde 23 Yıllık Tecrübe">
+        </div>
+        <div class="wrapper">
+          <div class="keyvisual-content">
+            <h1 class="keyvisual-title">Bilgi<br class="is-mobile"> Teknolojilerinde <br>23 Yıllık Tecrübe</h1>
+            <p class="keyvisual-detail">Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri<br class="is-mobile"> için farklı<br class="is-desktop"> sektörlerde tecrübe kazanmış uzman<br class="is-mobile"> kadrolarımızla Proje Yönetimi, İş <br class="is-desktop"> Analizi ve Test Yönetimi<br class="is-mobile">hizmetleri sunmaktayız.</p>
+            <form action="POST" class="keyvisual-register">
+              <input type="email" class="register-input" placeholder="Mail bültenimize kayıt ol">
+              <button type="submit" class="button-common-primary">
+                <span class="button-wrapper">Kayıt Ol</span>
+              </button>
+            </form>
+          </div>
+        </div>
+      </section>
+    </main>
+    <include src="./components/footer.html"></include>
   </div>
 
   <script src="./js/main.js" type="module"></script>

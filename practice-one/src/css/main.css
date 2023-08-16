@@ -1,6 +1,7 @@
 /* bases */
 @import url("./bases/reset.css");
 @import url("./bases/variables.css");
+@import url("./bases/fonts.css");
 
 /* layouts */
 @import url("./Layouts/container.css");
@@ -9,3 +10,6 @@
 @import url("./components/header.css");
 @import url("./components/footer.css");
 @import url("./components/button.css");
+
+/* sections */
+@import url("./sections/keyvisual.css");

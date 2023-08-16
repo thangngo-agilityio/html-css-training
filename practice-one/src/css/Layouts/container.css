@@ -4,7 +4,10 @@
 }
 
 .wrapper {
-    padding: 0 1.25rem;
+    padding-left: 1.25rem;
+    padding-right: 1.25rem;
+    margin: 0 auto;
+
 }
 
 @media screen and (min-width: 768px) {

@@ -1,10 +1,12 @@
 .button-common-primary {
     display: flex;
     align-items: center;
-    background-color: var(--color-secondary);
-    padding: 10px 20px;
+    background-color: #f84646;
+    padding: .625rem 1.25rem;
     border-radius: 5px;
     transition: .4s;
+    cursor: pointer;
+    flex: 0 0 auto;
 }
 
 .button-common-primary .button-wrapper {
