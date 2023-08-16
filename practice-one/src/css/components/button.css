@@ -14,7 +14,7 @@
 .button-common-primary .button-wrapper {
     color: var(--color-primary);
     transition: .4s;
-    font-size: 1rem;
+    font-size: --font-size-default;
     font-weight: 700;
 }
 

@@ -18,7 +18,8 @@
 }
 
 .section-top-manage .manage-list li {
-  margin-bottom: 5rem;
+  width: 19.75rem;
+  margin: 0 auto 5rem;
 }
 
 .section-top-manage .manage-list .manage-icon img {
