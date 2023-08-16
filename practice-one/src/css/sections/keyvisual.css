@@ -23,6 +23,7 @@
 .section-top-keyvisual .keyvisual-title {
   font-size: 2.625rem;
   color: var(--color-default);
+  line-height: calc(57.5 / 42);
   font-weight: 800;
   text-align: center;
   margin-bottom: 1.875rem;
@@ -33,7 +34,7 @@
   font-weight: 400;
   text-align: center;
   margin-bottom: 2.625rem;
-  line-height: calc( 23 / 12 );
+  line-height: calc(23 / 12);
 }
 
 .section-top-keyvisual .keyvisual-register {
@@ -41,9 +42,13 @@
   background-color: #fff;
   width: 90%;
   margin: 0 auto;
-  padding: 5px 5px 5px 20px;
-  border-radius: 5px;
+  padding: 6px 6px 6px 20px;
+  border-radius: 8px;
   justify-content: space-between;
+}
+
+.section-top-keyvisual .keyvisual-register .button-common-primary {
+  border-radius: 8px;
 }
 
 .section-top-keyvisual .register-input {
@@ -56,6 +61,11 @@
   display: none;
 }
 
+.section-top-keyvisual .register-input, .register-input::placeholder {
+  font-size: .875rem;
+  color: rgba(0,0,0,.4);
+}
+
 @media screen and (max-width: 374px) {
   .section-top-keyvisual .keyvisual-title {
     font-size: 2rem;
@@ -65,7 +75,9 @@
 @media screen and (min-width: 768px) {
   .section-top-keyvisual {
     margin-top: -5rem;
+    padding: 161px 0 127px;
   }
+
   .section-top-keyvisual .is-mobile {
     display: none;
   }
@@ -82,7 +94,9 @@
     font-size: 3.5rem;
     text-align: left;
     margin-bottom: 1.25rem;
+    line-height: calc(73.5 / 56);
   }
+
   .section-top-keyvisual .keyvisual-detail {
     text-align: left;
     font-size: 1rem;
@@ -90,7 +104,38 @@
   }
 
   .section-top-keyvisual .keyvisual-register {
-    width: 293px;
+    width: calc( 422px - 26px);
+    height: calc(73px - 12px);
     margin: 0;
+  }
+
+  .section-top-keyvisual .register-input, .register-input::placeholder {
+    font-size: 1rem;
+  }
+
+  .section-top-keyvisual .keyvisual-register .button-common-primary {
+    width: 136px;
+    
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .section-top-keyvisual {
+    padding: 200px 0 148px;
+  }
+
+  .section-top-keyvisual .keyvisual-title {
+    font-size: 4rem;
+    line-height: calc(82 / 64);
+  }
+
+  .section-top-keyvisual .keyvisual-detail {
+    font-size: 1.25rem;
+    margin-bottom: 50px;
+    line-height: calc(36 / 20);
+  }
+
+  .section-top-keyvisual .keyvisual-register {
+    width: calc( 502px - 26px);
   }
 }

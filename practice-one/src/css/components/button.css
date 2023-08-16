@@ -1,17 +1,21 @@
 .button-common-primary {
     display: flex;
     align-items: center;
+    justify-content: center;
     background-color: #f84646;
     padding: .625rem 1.25rem;
     border-radius: 5px;
     transition: .4s;
     cursor: pointer;
     flex: 0 0 auto;
+    font-family: Manrope, sans-serif;
 }
 
 .button-common-primary .button-wrapper {
     color: var(--color-primary);
     transition: .4s;
+    font-size: 1rem;
+    font-weight: 700;
 }
 
 .button-common-primary:hover {
