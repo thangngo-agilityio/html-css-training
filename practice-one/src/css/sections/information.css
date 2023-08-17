@@ -1,0 +1,8 @@
+.section-top-info {
+  padding: 6.625rem 0 5rem;
+}
+@media screen and (min-width: 768px) {
+  .section-top-info {
+    padding: 10rem 0;
+  }
+}
