@@ -34,7 +34,7 @@
   margin-bottom: .625rem;
 }
 
-.section-top-manage .manage-list .manage-detail {
+.section-top-manage .manage-list .manage-desc {
   font-size: 1.125rem;
   font-weight: 400;
   line-height: calc(28 / 18);
@@ -72,7 +72,7 @@
     margin-right: 0;
   }
 
-  .section-top-manage .manage-list .manage-detail {
+  .section-top-manage .manage-list .manage-desc {
     width: 18.625rem;
     margin: 0 auto;
     font-size: 1.125rem;
