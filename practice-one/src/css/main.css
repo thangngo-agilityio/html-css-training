@@ -12,9 +12,11 @@
 @import url("./components/detail.css");
 @import url("./components/manage-item.css");
 @import url("./components/info-blog.css");
+@import url("./components/company-item.css");
 
 /* sections */
 @import url("./sections/keyvisual.css");
 @import url("./sections/manage.css");
 @import url("./sections/provide.css");
 @import url("./sections/information.css");
+@import url("./sections/reference.css");
