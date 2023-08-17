@@ -1,10 +1,8 @@
 /* bases */
 @import url("./bases/reset.css");
+@import url("./bases/layouts.css");
 @import url("./bases/variables.css");
 @import url("./bases/fonts.css");
-
-/* layouts */
-@import url("./Layouts/container.css");
 
 /* components */
 @import url("./components/header.css");
@@ -12,8 +10,11 @@
 @import url("./components/button.css");
 @import url("./components/title.css");
 @import url("./components/detail.css");
+@import url("./components/manage-item.css");
+@import url("./components/info-blog.css");
 
 /* sections */
 @import url("./sections/keyvisual.css");
 @import url("./sections/manage.css");
 @import url("./sections/provide.css");
+@import url("./sections/information.css");

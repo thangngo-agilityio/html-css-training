@@ -127,6 +127,11 @@ header {
     align-items: center;
   }
 
+  .header-wrapper .navigation-list li a {
+    font-size: .875rem;
+  }
+
+
   .header-wrapper .navigation-list li:not(:last-child) {
     margin-bottom: 0;
   }
