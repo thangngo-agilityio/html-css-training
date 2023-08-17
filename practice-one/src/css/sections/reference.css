@@ -7,6 +7,7 @@
 .section-top-reference .title-common-primary {
   margin-bottom: 0.875rem;
 }
+
 .section-top-reference .detail-common-primary {
   margin-bottom: 2.5rem;
   font-weight: 500;
@@ -37,5 +38,4 @@
   .section-top-reference .detail-common-primary {
     font-size: 1.125rem;
   }
-
 }
