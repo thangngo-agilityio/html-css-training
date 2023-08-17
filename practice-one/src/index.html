@@ -45,7 +45,7 @@
           <ul class="manage-list">
             <each
               loop="item in [{'image': './assets/icons/icon_manage_01.svg', 'title': 'Döküman Analizi'}, {'image': './assets/icons/icon_manage_02.svg', 'title': 'Kabul ve Değerlendirme'}, {'image': './assets/icons/icon_manage_03.svg', 'title': 'İş Kuralları Analizi'}, {'image': './assets/icons/icon_manage_04.svg', 'title': 'Akış Diyagramları'}, {'image': './assets/icons/icon_manage_05.svg', 'title': 'Paydaş Analizi'}, {'image': './assets/icons/icon_manage_06.svg', 'title': 'Prototipleme'}]">
-              <include src="./components/manage-list.html">
+              <include src="./components/manage-item.html">
                 {{item}}
               </include>
             </each>
