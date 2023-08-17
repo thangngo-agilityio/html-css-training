@@ -74,6 +74,36 @@
           </include>
         </div>
       </section>
+      <section class="section-top-reference">
+        <div class="wrapper">
+          <h2 class="title-common-primary">Referanslarımız</h2>
+          <p class="detail-common-primary">Bize güvenen ve beraber çalıştığımız iş ortaklarımız</p>
+        </div>
+        <div class="reference-company">
+          <div class="company-item">
+            <each loop="item in [{'logo': './assets/images/logo_top_reference_01.png', 'textAlt': 'BORUSAN'}]"><include src="./components/company-item.html" locals='{{item}}'></include></each>
+          </div>
+          <div class="company-item">
+            <each loop="item in [{'logo': './assets/images/logo_top_reference_02.png', 'textAlt': 'İstanbul Bilgi Üniversitesi LAUREATE INTERNATIONAL UNIVERSITIES'}, {'logo': './assets/images/logo_top_reference_03.png', 'textAlt': 'book my show'}]"><include src="./components/company-item.html" locals='{{item}}'></include></each>
+          </div>
+          <div class="company-item">
+            <each loop="item in [{'logo': './assets/images/logo_top_reference_04.png', 'textAlt': 'AKBANK'}, {'logo': './assets/images/logo_top_reference_05.png', 'textAlt': 'AKÇANSA'}]"><include src="./components/company-item.html" locals='{{item}}'></include></each>
+            <div class="company-wrapper is-link">
+              <a href="javascript:void(0)">
+                <figure class="company-logo">
+                  <img src="./assets/images/logo_top_reference_06.png" width="134" height="68" loading="lazy" alt="Tümünü Gör">
+                </figure>
+              </a>
+            </div>
+          </div>
+          <div class="company-item">
+            <each loop="item in [{'logo': './assets/images/logo_top_reference_07.png', 'textAlt': 'aktaş'}, {'logo': './assets/images/logo_top_reference_08.png', 'textAlt': 'OLA'}]"><include src="./components/company-item.html" locals='{{item}}'></include></each>
+          </div>
+          <div class="company-item">
+            <each loop="item in [{'logo': './assets/images/logo_top_reference_09.png', 'textAlt': 'amazon'}]"><include src="./components/company-item.html" locals='{{item}}'></include></each>
+          </div>
+        </div>
+      </section>
     </main>
     <include src="./components/footer.html"></include>
   </div>

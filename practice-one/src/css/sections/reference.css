@@ -1,0 +1,41 @@
+.section-top-reference {
+  background-color: #f4f5f7;
+  text-align: center;
+  padding: 2.5rem 0;
+}
+
+.section-top-reference .title-common-primary {
+  margin-bottom: 0.875rem;
+}
+.section-top-reference .detail-common-primary {
+  margin-bottom: 2.5rem;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .section-top-reference .title-common-primary {
+    margin-bottom: 4px;
+  }
+
+  .section-top-reference .detail-common-primary {
+    margin-bottom: 48px;
+  }
+
+  .section-top-reference .reference-company {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 24px;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .section-top-reference {
+    padding: 59px 0 calc(59px - 24px);
+  }
+
+  .section-top-reference .detail-common-primary {
+    font-size: 1.125rem;
+  }
+
+}
