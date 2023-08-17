@@ -38,55 +38,17 @@
         <div class="wrapper">
           <div class="manage-heading">
             <h2 class="title-common-primary">Kalite ve Süreç Yönetimi</h2>
-            <p class="detail-common-primary">Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri<br class="is-mobile"> için farklı sektörlerde tecrübe kazanmış uzman<br class="is-mobile"> kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
+            <p class="detail-common-primary">Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri<br
+                class="is-mobile"> için farklı sektörlerde tecrübe kazanmış uzman<br class="is-mobile"> kadrolarımızla
+              Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
           </div>
           <ul class="manage-list">
-            <li>
-              <picture class="manage-icon">
-                <img src="./assets/icons/icon_manage_01.svg" width="88" height="82" loading="lazy"
-                  alt="Döküman Analizi">
-              </picture>
-              <h3 class="manage-title">Döküman Analizi</h3>
-              <p class="manage-detail">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
-            </li>
-            <li>
-              <picture class="manage-icon">
-                <img src="./assets/icons/icon_manage_02.svg" width="88" height="82" loading="lazy"
-                  alt="Kabul ve Değerlendirme">
-              </picture>
-              <h3 class="manage-title">Kabul ve Değerlendirme</h3>
-              <p class="manage-detail">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
-            </li>
-            <li>
-              <picture class="manage-icon">
-                <img src="./assets/icons/icon_manage_03.svg" width="88" height="82" loading="lazy"
-                  alt="İş Kuralları Analizi">
-              </picture>
-              <h3 class="manage-title">İş Kuralları Analizi</h3>
-              <p class="manage-detail">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
-            </li>
-            <li>
-              <picture class="manage-icon">
-                <img src="./assets/icons/icon_manage_04.svg" width="88" height="82" loading="lazy"
-                  alt="Akış Diyagramları">
-              </picture>
-              <h3 class="manage-title">Akış Diyagramları</h3>
-              <p class="manage-detail">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
-            </li>
-            <li>
-              <picture class="manage-icon">
-                <img src="./assets/icons/icon_manage_05.svg" width="88" height="82" loading="lazy" alt="Paydaş Analizi">
-              </picture>
-              <h3 class="manage-title">Paydaş Analizi</h3>
-              <p class="manage-detail">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
-            </li>
-            <li>
-              <picture class="manage-icon">
-                <img src="./assets/icons/icon_manage_06.svg" width="88" height="82" loading="lazy" alt="Prototipleme">
-              </picture>
-              <h3 class="manage-title">Prototipleme</h3>
-              <p class="manage-detail">Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum.</p>
-            </li>
+            <each
+              loop="item in [{'image': './assets/icons/icon_manage_01.svg', 'title': 'Döküman Analizi'}, {'image': './assets/icons/icon_manage_02.svg', 'title': 'Kabul ve Değerlendirme'}, {'image': './assets/icons/icon_manage_03.svg', 'title': 'İş Kuralları Analizi'}, {'image': './assets/icons/icon_manage_04.svg', 'title': 'Akış Diyagramları'}, {'image': './assets/icons/icon_manage_05.svg', 'title': 'Paydaş Analizi'}, {'image': './assets/icons/icon_manage_06.svg', 'title': 'Prototipleme'}]">
+              <include src="./components/manage-item.html">
+                {{item}}
+              </include>
+            </each>
           </ul>
         </div>
       </section>
