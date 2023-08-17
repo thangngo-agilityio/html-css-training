@@ -57,7 +57,7 @@ header {
   color: var(--color-secondary);
 }
 
-.hamburger {
+.button-menu {
   display: block;
   width: 35px;
   height: 35px;
@@ -70,9 +70,9 @@ header {
   z-index: 100;
 }
 
-.hamburger .bar,
-.hamburger:after,
-.hamburger:before {
+.button-menu .menu-bar,
+.button-menu:after,
+.button-menu:before {
   content: "";
   display: block;
   width: 22px;
@@ -83,15 +83,15 @@ header {
   transition: 0.4s;
 }
 
-.hamburger.is-active .bar {
+.button-menu.is-active .menu-bar {
   opacity: 0;
 }
 
-.hamburger.is-active:before {
+.button-menu.is-active:before {
   transform: rotate(-45deg) translate(-9px, 5px);
 }
 
-.hamburger.is-active:after {
+.button-menu.is-active:after {
   transform: rotate(45deg) translate(-6px, -3px);
 }
 
@@ -108,7 +108,7 @@ header {
     transition: none;
   }
 
-  .hamburger {
+  .button-menu {
     display: none;
   }
 
