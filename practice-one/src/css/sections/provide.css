@@ -1,0 +1,110 @@
+.section-top-provide {
+  background: var(--color-secondary) url("../../assets/images/sp/background_top_provide.jpg") left/cover no-repeat;
+  color: var(--color-primary);
+  padding: 3.125rem 0 5.25rem;
+}
+
+.section-top-provide .provide-heading {
+  text-align: center;
+}
+
+.section-top-provide .title-common-primary {
+  color: var(--color-primary);
+  font-size: 2.25rem;
+  line-height: calc(47 / 36);
+  margin-bottom: .625rem;
+}
+
+.section-top-provide .detail-common-primary {
+  color: var(--color-primary);
+  font-size: .875rem;
+  margin-bottom: 3.4375rem;
+}
+
+.section-top-provide .provide-list {
+  text-align: center;
+}
+
+.section-top-provide .provide-list li {
+  position: relative;
+  font-size: 1.125rem;
+  font-weight: 700;
+}
+
+.section-top-provide .provide-list li:not(:last-child) {
+  margin-bottom: 7.1875rem;
+}
+
+.section-top-provide .provide-list li:not(:last-child)::after {
+  content: '';
+  display: block;
+  position: absolute;
+  background: url("../../assets/icons/icon_arrow_01.svg") center/cover no-repeat;
+  width: 2.25rem;
+  height: 2.25rem;
+  top: 4.375rem;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+@media screen and (min-width: 768px) {
+  .section-top-provide {
+    padding: 35px 0 0;
+    background-image: url("../../assets/images/background_top_provide.jpg");
+  }
+
+  .section-top-provide .title-common-primary {
+    font-size: 3rem;
+    line-height: calc(64 / 48);
+  }
+
+  .section-top-provide .detail-common-primary {
+    font-size: 1.125rem;
+    line-height: calc(32 / 18);
+  }
+  
+  .section-top-provide .provide-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  .section-top-provide .provide-list li {
+    width: calc((100% - 100px) / 4);
+    text-align: left;
+    font-size: .875rem;
+    line-height: calc(21.5 / 14);
+  }
+
+  .section-top-provide .provide-list li:not(:last-child) {
+    margin-right: 32px;
+  }
+
+  .section-top-provide li:not(:last-child) .provide-detail {
+    padding-right: 60px;
+  }
+
+  .section-top-provide .provide-list li:not(:last-child)::after {
+    transform: translateX(-50%) rotate(-90deg);
+    top: 50%;
+    right: 1.25rem;
+    width: 28px;
+    height: 28px;
+    left: initial;
+    transform: translateY(-50%) rotate(-90deg);
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .section-top-provide .provide-list {
+    max-width: 1088px;
+    margin: 0 auto;
+  }
+
+  .section-top-provide .provide-list li {
+    width: calc((100% - 124px) / 4);
+  }
+
+  .section-top-provide .provide-list li:not(:last-child) {
+    margin-right: 40px;
+  }
+}

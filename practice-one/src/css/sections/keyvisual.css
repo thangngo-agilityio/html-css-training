@@ -99,7 +99,7 @@
 
   .section-top-keyvisual .keyvisual-detail {
     text-align: left;
-    font-size: 1rem;
+    font-size: --font-size-default;
     margin-bottom: 1.25rem;
   }
 
@@ -110,7 +110,7 @@
   }
 
   .section-top-keyvisual .register-input, .register-input::placeholder {
-    font-size: 1rem;
+    font-size: --font-size-default;
   }
 
   .section-top-keyvisual .keyvisual-register .button-common-primary {
