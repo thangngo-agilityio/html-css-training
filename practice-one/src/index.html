@@ -38,15 +38,17 @@
         <div class="wrapper">
           <div class="manage-heading">
             <h2 class="title-common-primary">Kalite ve Süreç Yönetimi</h2>
-            <p class="detail-common-primary">Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri<br class="is-mobile"> için farklı sektörlerde tecrübe kazanmış uzman<br class="is-mobile"> kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
+            <p class="detail-common-primary">Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri<br
+                class="is-mobile"> için farklı sektörlerde tecrübe kazanmış uzman<br class="is-mobile"> kadrolarımızla
+              Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
           </div>
           <ul class="manage-list">
-            <include src="./components/manage-list.html" locals='{
-              "img": "./assets/icons/icon_manage_01.svg", 
-              "title": "Döküman Analizi", 
-              "detail": "Ante vulputate ut at accumsan et. Feugiat at tempus, est senectus amet, elementum."
-            }'>
-            </include>
+            <each
+              loop="item in [{'image': './assets/icons/icon_manage_01.svg', 'title': 'Döküman Analizi'}, {'image': './assets/icons/icon_manage_02.svg', 'title': 'Kabul ve Değerlendirme'}, {'image': './assets/icons/icon_manage_03.svg', 'title': 'İş Kuralları Analizi'}, {'image': './assets/icons/icon_manage_04.svg', 'title': 'Akış Diyagramları'}, {'image': './assets/icons/icon_manage_05.svg', 'title': 'Paydaş Analizi'}, {'image': './assets/icons/icon_manage_06.svg', 'title': 'Prototipleme'}]">
+              <include src="./components/manage-list.html">
+                {{item}}
+              </include>
+            </each>
           </ul>
         </div>
       </section>
