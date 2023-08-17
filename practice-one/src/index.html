@@ -66,6 +66,14 @@
           </ul>
         </div>
       </section>
+      <section class="section-top-info">
+        <div class="wrapper">
+          <each loop="item in [{'image': './assets/images/img_top_info_01.jpg', 'title': 'Kalite ve Süreç Yönetimi', 'detail': 'Deneyimli kadromuz; birçok farklı sektörden deneyimli, PMP® sertifikasına sahip, uzman proje yöneticilerinden oluşmaktadır. Projelerinizin yönetimine destek olmak, zayıf olduğunu düşündüğünüz alanları güçlendirmek, uluslararası geçerliliği olan PMI® metodolojisini şirketinizde uygulamak ve geliştirmek için yanınızdayız.'}, {'image': './assets/images/img_top_info_02.jpg', 'title': 'Test Yönetimi ve Analizi', 'detail': 'Danışmanlığını yürüttüğümüz projelerde yazılım hatalarını önlemek amacıyla gerçekleştirdiğimiz testleri her proje aşamasında manuel ya da test otomasyonu ile dikkatle uygulamaktayız. Deneyimli test ekibimiz, kurumlara yüksek kalitede yazılım testleri hizmeti ile baştan sona güvenli, kaliteli ve tatmin edici bir müşteri deneyimi sunmaktadır.'}]">
+            <include src="./components/info-blog.html" locals='{{item}}'></include>
+          </each>
+          </include>
+        </div>
+      </section>
     </main>
     <include src="./components/footer.html"></include>
   </div>
