@@ -1,0 +1,65 @@
+.section-top-contact {
+  text-align: center;
+  padding: 12.5rem 0 5.125rem;
+}
+
+.section-top-contact .title-common-primary {
+  position: relative;
+  margin-bottom: .75rem;
+}
+
+.section-top-contact .detail-common-primary {
+  font-size: .875rem;
+  line-height: calc(25 / 14);
+  margin-bottom: 1.25rem;
+}
+
+.section-top-contact .title-common-primary::before {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 5.625rem;
+  height: 5.625rem;
+  background: url("../../assets/icons/icon_contanct.svg") center/cover no-repeat;
+  top: -110px;
+  left: 50%;
+  transform: translateX(-50%);
+}
+
+.section-top-contact .button-common-primary {
+  max-width: calc(124px - 40px);
+  min-height: calc(42px - 20px);
+  margin: 0 auto;
+}
+
+@media screen and (min-width: 768px) {
+  .section-top-contact {
+    padding: 290px 0 160px;
+  }
+
+  .section-top-contact .title-common-primary {
+    margin-bottom: 20px;
+  }
+
+  .section-top-contact .title-common-primary::before {
+    width: 120px;
+    height: 120px;
+  }
+
+  .section-top-contact .detail-common-primary {
+    font-size: 1.125rem;
+    line-height: calc(32 / 18);
+    margin-bottom: 30px;
+    
+  }
+
+  .section-top-contact .button-common-primary .button-wrapper {
+    font-size: 1.5rem;
+  }
+
+  .section-top-contact .button-common-primary {
+    max-width: calc(204px - 40px);
+    min-height: calc(70px - 20px);
+    margin: 0 auto;
+  }
+}
