@@ -69,23 +69,23 @@
 }
 
 .footer .media-list .is-icon {
-  background: url("/src/assets/images/sp/icon_top_media.png") 0px 0px;
+  background: url("/src/assets/images/sp/icon_top_media.png.webp") 0px 0px;
 }
 
 .footer .media-list .is-linkedin {
-  background: url("/src/assets/images/sp/icon_top_media.png") -47px 0px;
+  background: url("/src/assets/images/sp/icon_top_media.png.webp") -47px 0px;
 }
 
 .footer .media-list .is-twitter {
-  background: url("/src/assets/images/sp/icon_top_media.png") -97px 0px;
+  background: url("/src/assets/images/sp/icon_top_media.png.webp") -97px 0px;
 }
 
 .footer .media-list .is-instagram {
-  background: url("/src/assets/images/sp/icon_top_media.png") -143px 0px;
+  background: url("/src/assets/images/sp/icon_top_media.png.webp") -143px 0px;
 }
 
 .footer .media-list .is-facebook {
-  background: url("/src/assets/images/sp/icon_top_media.png") -193px 0px;
+  background: url("/src/assets/images/sp/icon_top_media.png.webp") -193px 0px;
 }
 
 .footer .footer-copyright {
