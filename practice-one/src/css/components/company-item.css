@@ -2,11 +2,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  max-width: 10.625rem;
-  height: 6rem;
+  max-width: 1.7rem;
+  height: .96rem;
   border-radius: 16px;
   background-color: var(--color-primary);
-  margin: 0 auto 1.5rem;
+  margin: 0 auto .24rem;
 }
 
 .company-item .is-link {
@@ -26,9 +26,9 @@
 }
 
 .company-item .company-logo {
-  max-width: 134px;
-  height: 68px;
-  padding: 15px 18px
+  max-width: 1.34rem;
+  height: .68rem;
+  padding: .15rem .18rem;
 }
 
 .company-item .company-logo img {

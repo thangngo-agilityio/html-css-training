@@ -1,7 +1,7 @@
 .section-top-keyvisual {
   position: relative;
   z-index: 10;
-  padding: 1.37rem 0;
+  padding: 1.37rem 0 .84rem;
   margin-top: -.66rem;
 }
 
@@ -66,15 +66,9 @@
   color: rgba(0,0,0,.4);
 }
 
-@media screen and (max-width: 374px) {
-  .section-top-keyvisual .keyvisual-title {
-    font-size: .32rem;
-  }
-}
-
 @media screen and (min-width: 768px) {
   .section-top-keyvisual {
-    margin-top: -5rem;
+    margin-top: -.8rem;
     padding: 161px 0 127px;
   }
 
@@ -87,7 +81,7 @@
   }
 
   .section-top-keyvisual .keyvisual-content {
-    width: 665px;
+    width: 580px;
   }
 
   .section-top-keyvisual .keyvisual-title {
@@ -99,7 +93,7 @@
 
   .section-top-keyvisual .keyvisual-detail {
     text-align: left;
-    font-size: --font-size-default;
+    font-size: var(--font-size-default);
     margin-bottom: 20px;
   }
 
@@ -110,12 +104,11 @@
   }
 
   .section-top-keyvisual .register-input, .register-input::placeholder {
-    font-size: --font-size-default;
+    font-size: var(--font-size-default);
   }
 
   .section-top-keyvisual .keyvisual-register .button-common-primary {
-    width: 136px;
-    
+    width: 1.36rem;
   }
 }
 
@@ -124,13 +117,18 @@
     padding: 200px 0 148px;
   }
 
+  .section-top-keyvisual .keyvisual-content {
+    width: 665px;
+  }
+
   .section-top-keyvisual .keyvisual-title {
-    font-size: 4rem;
+    font-size: .64rem;
     line-height: calc(82 / 64);
+    margin-bottom: 20px;
   }
 
   .section-top-keyvisual .keyvisual-detail {
-    font-size: .2rem;
+    font-size: 20px;
     margin-bottom: 50px;
     line-height: calc(36 / 20);
   }
