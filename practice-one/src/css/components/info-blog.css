@@ -1,12 +1,12 @@
 .info-blog:not(:last-child) {
-  margin-bottom: 3.75rem;
+  margin-bottom: .6rem;
 }
 
 .info-blog .blog-thumbnail {
   width: 100%;
-  height: 19.5rem;
+  height: 3.12rem;
   border-radius: 8px;
-  margin-bottom: 1.875rem;
+  margin-bottom: .3rem;
 }
 
 .info-blog .blog-thumbnail img {
@@ -21,18 +21,18 @@
 }
 
 .info-blog .detail-common-primary {
-  font-size: .875rem;
+  font-size: .14rem;
   line-height: calc(28.5 / 14);
   color: #808080;
-  margin-bottom: 2.5rem;
+  margin-bottom: .4rem;
 }
 
 .info-blog .button-common-primary {
-  padding: .75rem 1.25rem;
+  padding: .12rem .2rem;
 }
 
 .info-blog .button-common-primary .button-wrapper {
-  font-size: .875rem;
+  font-size: .14rem;
 }
 
 @media screen and (min-width: 768px) {
@@ -46,7 +46,7 @@
 
   .info-blog .title-common-primary {
     margin-bottom: 20px;
-    font-size: 3.625rem;
+    font-size: .58rem;
     line-height: calc(59.5 / 58);
   }
   
@@ -93,7 +93,7 @@
 
   .info-blog .title-common-primary {
     margin-bottom: 40px;
-    font-size: 4rem;
+    font-size: .64rem;
     line-height: calc(76 / 64);
   }
 

@@ -1,13 +1,13 @@
 .manage-list .manage-icon {
   display: block;
-  width: 5.5rem;
-  height: 5.125rem;
-  margin: 0 auto .625rem;
+  width: .88rem;
+  height: .82rem;
+  margin: 0 auto .1rem;
 }
 
 .manage-list li {
-  width: 19.75rem;
-  margin: 0 auto 5rem;
+  width: 3.16rem;
+  margin: 0 auto .8rem;
 }
 
 .manage-list .manage-icon img {
@@ -17,13 +17,13 @@
 }
 
 .manage-list .manage-title {
-  font-size: 1.5rem;
+  font-size: .24rem;
   font-weight: 800;
-  margin-bottom: .625rem;
+  margin-bottom: .1rem;
 }
 
 .manage-list .manage-desc {
-  font-size: 1.125rem;
+  font-size: .18rem;
   font-weight: 400;
   line-height: calc(28 / 18);
   margin-bottom: 0;
@@ -48,9 +48,9 @@
   }
 
   .manage-list .manage-desc {
-    width: 18.625rem;
+    width: 298px;
     margin: 0 auto;
-    font-size: 1.125rem;
+    font-size: .18rem;
     line-height: calc(28 / 18);
   }
 }

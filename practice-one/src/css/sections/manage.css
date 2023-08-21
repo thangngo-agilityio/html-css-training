@@ -3,30 +3,27 @@
 }
 
 .section-top-manage .wrapper {
-  padding-top: 3.75rem;
+  padding-top: .6rem;
 }
 
 .section-top-manage .title-common-primary {
-  font-size: 1.5rem;
+  font-size: .24rem;
 }
 
 
 
 @media screen and (min-width: 768px) {
   .section-top-manage .wrapper {
-    padding-top: 7.5rem;
+    padding-top: 120px;
   }
-  
+
 
   .section-top-manage .title-common-primary {
-    font-size: 2.25rem;
+    font-size: .36rem;
   }
 
   .section-top-manage .detail-common-primary {
     max-width: 994px;
     margin: 0 auto 90px;
   }
-
-  
 }
-

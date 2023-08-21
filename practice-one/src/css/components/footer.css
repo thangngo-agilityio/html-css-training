@@ -6,26 +6,26 @@
 }
 
 .footer .footer-wrapper {
-  padding: 0 1.25rem 4.8125rem;
+  padding: 0 .2rem .77rem;
   margin: 0 auto;
 }
 
 .footer .footer-navigation {
-  padding: 5rem 0 1.875rem;
+  padding: .8rem 0 .3rem;
 }
 
 .footer .navigation-item:not(:last-child) {
-  margin-bottom: 3.125rem;
+  margin-bottom: .5rem;
 }
 
 .footer .navigation-title {
   color: var(--color-primary);
   font-weight: 700;
-  margin-bottom: 1.5rem;
+  margin-bottom: .24rem;
 }
 
 .footer .navigation-list li:not(:last-child) {
-  margin-bottom: 1.5rem;
+  margin-bottom: .24rem;
 }
 
 .footer .navigation-list li a {
@@ -39,7 +39,7 @@
 }
 
 .footer .footer-media {
-  margin-bottom: 3.875rem;
+  margin-bottom: .62rem;
 }
 
 .footer .media-list {
@@ -48,8 +48,8 @@
 }
 
 .footer .media-list li {
-  width: 2rem;
-  height: 2rem;
+  width: .32rem;
+  height: .32rem;
   transition: .4s;
   cursor: pointer;
 }
@@ -65,27 +65,27 @@
 }
 
 .footer .media-list li:not(:last-child) {
-  margin-right: 1rem;
+  margin-right: .16rem;
 }
 
 .footer .media-list .is-icon {
-  background: url("/src/assets/images/sp/icon_top_media.png.webp") 0px 0px;
+  background: url("/src/assets/images/sp/icon_top_media.png.webp") 0rem 0rem/cover no-repeat;
 }
 
 .footer .media-list .is-linkedin {
-  background: url("/src/assets/images/sp/icon_top_media.png.webp") -47px 0px;
+  background: url("/src/assets/images/sp/icon_top_media.png.webp") -.47rem 0rem/cover no-repeat;
 }
 
 .footer .media-list .is-twitter {
-  background: url("/src/assets/images/sp/icon_top_media.png.webp") -97px 0px;
+  background: url("/src/assets/images/sp/icon_top_media.png.webp") -.97rem 0rem/cover no-repeat;
 }
 
 .footer .media-list .is-instagram {
-  background: url("/src/assets/images/sp/icon_top_media.png.webp") -143px 0px;
+  background: url("/src/assets/images/sp/icon_top_media.png.webp") -1.43rem 0rem/cover no-repeat;
 }
 
 .footer .media-list .is-facebook {
-  background: url("/src/assets/images/sp/icon_top_media.png.webp") -193px 0px;
+  background: url("/src/assets/images/sp/icon_top_media.png.webp") -1.87rem 0rem/cover no-repeat;
 }
 
 .footer .footer-copyright {
@@ -96,7 +96,7 @@
 @media screen and (min-width: 768px) {
   .footer .footer-wrapper {
     max-width: 906px;
-    padding-bottom: 4.375rem;
+    padding-bottom: .7rem;
   }
 
   .footer .footer-navigation {
@@ -106,7 +106,7 @@
   }
 
   .footer .footer-navigation .navigation-item:not(:last-child) {
-    margin-right: 2.5rem;
+    margin-right: .4rem;
   }
 
   .footer .footer-infor {
@@ -118,5 +118,12 @@
 
   .footer .footer-media {
     margin-bottom: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .footer .footer-wrapper {
+    max-width: 1238px;
+    padding-bottom: .7rem;
   }
 }

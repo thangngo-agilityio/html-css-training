@@ -1,7 +1,7 @@
 .section-top-provide {
   background: var(--color-secondary) url("../../assets/images/sp/background_top_provide.jpg.webp") left/cover no-repeat;
   color: var(--color-primary);
-  padding: 3.125rem 0 5.25rem;
+  padding: .5rem 0 .84rem;
 }
 
 .section-top-provide .provide-heading {
@@ -10,15 +10,15 @@
 
 .section-top-provide .title-common-primary {
   color: var(--color-primary);
-  font-size: 2.25rem;
+  font-size: .36rem;
   line-height: calc(47 / 36);
-  margin-bottom: .625rem;
+  margin-bottom: .1rem;
 }
 
 .section-top-provide .detail-common-primary {
   color: var(--color-primary);
-  font-size: .875rem;
-  margin-bottom: 3.4375rem;
+  font-size: .14rem;
+  margin-bottom: .55rem;
 }
 
 .section-top-provide .provide-list {
@@ -27,12 +27,12 @@
 
 .section-top-provide .provide-list li {
   position: relative;
-  font-size: 1.125rem;
+  font-size: .18rem;
   font-weight: 700;
 }
 
 .section-top-provide .provide-list li:not(:last-child) {
-  margin-bottom: 7.1875rem;
+  margin-bottom: 1.15rem;
 }
 
 .section-top-provide .provide-list li:not(:last-child)::after {
@@ -40,9 +40,9 @@
   display: block;
   position: absolute;
   background: url("../../assets/icons/icon_arrow_01.svg") center/cover no-repeat;
-  width: 2.25rem;
-  height: 2.25rem;
-  top: 4.375rem;
+  width: .36rem;
+  height: .36rem;
+  top: .7rem;
   left: 50%;
   transform: translateX(-50%);
 }
@@ -54,12 +54,12 @@
   }
 
   .section-top-provide .title-common-primary {
-    font-size: 3rem;
+    font-size: .48rem;
     line-height: calc(64 / 48);
   }
 
   .section-top-provide .detail-common-primary {
-    font-size: 1.125rem;
+    font-size: .18rem;
     line-height: calc(32 / 18);
   }
 
@@ -71,7 +71,7 @@
   .section-top-provide .provide-list li {
     width: calc((100% - 100px) / 4);
     text-align: left;
-    font-size: .875rem;
+    font-size: .14rem;
     line-height: calc(21.5 / 14);
   }
 
@@ -86,7 +86,7 @@
   .section-top-provide .provide-list li:not(:last-child)::after {
     transform: translateX(-50%) rotate(-90deg);
     top: 50%;
-    right: 20px;
+    right: 10px;
     width: 28px;
     height: 28px;
     left: initial;
@@ -105,7 +105,7 @@
   }
 
   .section-top-provide .provide-list .provide-detail {
-    font-size: 1.125rem;
+    font-size: .18rem;
   }
 
   .section-top-provide .provide-list li:not(:last-child) {
