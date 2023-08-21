@@ -1,5 +1,10 @@
+html {
+  font-size: calc(100vw / 3.75);
+}
+
 body {
   font-family: Manrope, sans-serif;
+  font-size: .16rem;
 }
 
 .container {
@@ -13,7 +18,7 @@ main {
 }
 
 .wrapper {
-  padding: 0 1.25rem;
+  padding: 0 .2rem;
   margin: 0 auto;
 }
 
