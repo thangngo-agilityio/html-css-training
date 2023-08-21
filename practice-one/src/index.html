@@ -76,12 +76,16 @@
               <each loop="item in [{'logo': './assets/images/logo_top_reference_01.png.webp', 'textAlt': 'BORUSAN'}]"><include src="./components/company-item.html" locals='{{item}}'></include></each>
             </div>
             <div class="company-item">
-              <each loop="item in [{'logo': './assets/images/logo_top_reference_02.png.webp', 'textAlt': 'İstanbul Bilgi Üniversitesi LAUREATE INTERNATIONAL UNIVERSITIES'}, {'logo': './assets/images/logo_top_reference_03.png.webp', 'textAlt': 'book my show'}]"><include src="./components/company-item.html" locals='{{item}}'></include></each>
+              <each loop="item in [{'logo': './assets/images/logo_top_reference_02.png.webp', 'textAlt': 'İstanbul Bilgi Üniversitesi LAUREATE INTERNATIONAL UNIVERSITIES'}, {'logo': './assets/images/logo_top_reference_03.png.webp', 'textAlt': 'book my show'}]">
+                <include src="./components/company-item.html">
+                  {{item}}
+                </include>
+              </each>
             </div>
             <div class="company-item">
               <each loop="item in [{'logo': './assets/images/logo_top_reference_04.png.webp', 'textAlt': 'AKBANK'}, {'logo': './assets/images/logo_top_reference_05.png.webp', 'textAlt': 'AKÇANSA'}]"><include src="./components/company-item.html" locals='{{item}}'></include></each>
               <div class="company-wrapper is-link">
-                <a href="javascript:void(0)">
+                <a href="#">
                   <figure class="company-logo">
                     <img src="./assets/images/logo_top_reference_06.png.webp" width="134" height="68" loading="lazy" alt="Tümünü Gör">
                   </figure>
@@ -101,7 +105,7 @@
         <div class="wrapper">
           <h2 class="title-common-primary">Bize Ulaşın</h2>
           <p class="detail-common-primary">Çözüm, hizmet ve ürünlerimiz hakkında detaylı bilgi için bizimle irtibata geçin.</p>
-          <a href="javascript:void(0)" class="button-common-primary">
+          <a href="#" class="button-common-primary">
             <span class="button-wrapper">Bize Ulaşın</span>
           </a>
         </div>

@@ -5,7 +5,7 @@ header {
 
 .header-wrapper {
   text-align: center;
-  padding: 0.9375rem 1.25rem;
+  padding: .15rem .2rem;
   display: flex;
   justify-content: space-between;
   margin: 0 auto;
@@ -30,25 +30,25 @@ header {
 }
 
 .header-wrapper .navigation-list {
-  margin-bottom: 3.125rem;
+  margin-bottom: .50rem;
   list-style: none;
   margin-bottom: 0;
-  padding: 100px 0;
+  padding: 1rem 0;
 }
 
 .header-wrapper .navigation-list li {
   width: 70%;
-  height: 1.875rem;
+  height: .30rem;
   margin: 0 auto;
 }
 
 .header-wrapper .navigation-list li:not(:last-child) {
-  margin-bottom: 3.75rem;
+  margin-bottom: .6rem;
 }
 
 .header-wrapper .navigation-list li a {
   color: var(--color-default);
-  font-size: 1.5rem;
+  font-size: .24rem;
   font-weight: 700;
   transition: 0.4s;
   width: 100%;
@@ -60,8 +60,8 @@ header {
 
 .button-menu {
   display: block;
-  width: 35px;
-  height: 35px;
+  width: .35rem;
+  height: .35rem;
   cursor: pointer;
   appearance: none;
   background: none;
@@ -76,11 +76,11 @@ header {
 .button-menu:before {
   content: "";
   display: block;
-  width: 22px;
-  height: 2px;
+  width: .22rem;
+  height: .02rem;
   border-radius: 30px;
   background-color: var(--color-default);
-  margin: 6px 0px;
+  margin: .06rem 0px;
   transition: 0.4s;
 }
 
@@ -89,11 +89,11 @@ header {
 }
 
 .button-menu.is-active:before {
-  transform: rotate(-45deg) translate(-9px, 5px);
+  transform: rotate(-45deg) translate(-.09rem, .05rem);
 }
 
 .button-menu.is-active:after {
-  transform: rotate(45deg) translate(-6px, -3px);
+  transform: rotate(45deg) translate(-.06rem, -.03rem);
 }
 
 @media screen and (min-width: 768px) {
@@ -104,7 +104,7 @@ header {
 
   .header-wrapper .header-navigation {
     position: initial;
-    margin-right: 2.5rem;
+    margin-right: .4rem;
     background: none;
     transition: none;
   }
@@ -122,13 +122,13 @@ header {
   .header-wrapper .navigation-list li {
     display: flex;
     width: max-content;
-    padding: .625rem 1.25rem;
+    padding: .1rem .2rem;
     margin: 0;
     align-items: center;
   }
 
   .header-wrapper .navigation-list li a {
-    font-size: .875rem;
+    font-size: .14rem;
   }
 
 
