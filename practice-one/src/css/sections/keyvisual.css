@@ -68,7 +68,7 @@
 
 @media screen and (max-width: 374px) {
   .section-top-keyvisual .keyvisual-title {
-    font-size: 2rem;
+    font-size: .32rem;
   }
 }
 
@@ -91,16 +91,16 @@
   }
 
   .section-top-keyvisual .keyvisual-title {
-    font-size: 3.5rem;
+    font-size: .56rem;
     text-align: left;
-    margin-bottom: 1.25rem;
+    margin-bottom: 20px;
     line-height: calc(73.5 / 56);
   }
 
   .section-top-keyvisual .keyvisual-detail {
     text-align: left;
     font-size: --font-size-default;
-    margin-bottom: 1.25rem;
+    margin-bottom: 20px;
   }
 
   .section-top-keyvisual .keyvisual-register {
@@ -130,7 +130,7 @@
   }
 
   .section-top-keyvisual .keyvisual-detail {
-    font-size: 1.25rem;
+    font-size: .2rem;
     margin-bottom: 50px;
     line-height: calc(36 / 20);
   }
