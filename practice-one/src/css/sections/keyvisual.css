@@ -39,7 +39,7 @@
 
 .section-top-keyvisual .keyvisual-register {
   display: flex;
-  background-color: #fff;
+  background-color: var(--color-primary);
   width: 90%;
   margin: 0 auto;
   padding: 6px 6px 6px 20px;
