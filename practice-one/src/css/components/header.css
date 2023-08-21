@@ -47,11 +47,15 @@ header {
 }
 
 .header-wrapper .navigation-list li a {
+  display: flex;
+  width: 100%;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
   color: var(--color-default);
   font-size: .24rem;
   font-weight: 700;
   transition: 0.4s;
-  width: 100%;
 }
 
 .header-wrapper .navigation-list li a:hover {
@@ -104,7 +108,7 @@ header {
 
   .header-wrapper .header-navigation {
     position: initial;
-    margin-right: .4rem;
+    margin-right: 40px;
     background: none;
     transition: none;
   }
@@ -122,13 +126,13 @@ header {
   .header-wrapper .navigation-list li {
     display: flex;
     width: max-content;
-    padding: .1rem .2rem;
+    padding: 10px 20px;
     margin: 0;
     align-items: center;
   }
 
   .header-wrapper .navigation-list li a {
-    font-size: .14rem;
+    font-size: 14px;
   }
 
 
@@ -137,7 +141,7 @@ header {
   }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1025) {
   .header-wrapper {
     max-width: 1197px;
   }
