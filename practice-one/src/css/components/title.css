@@ -1,4 +1,4 @@
-.title-common-primary {
+.title-primary {
   color: var(--color-default);
   font-weight: 800;
   font-size: .36rem;
@@ -6,7 +6,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .title-common-primary {
+  .title-primary {
     font-size: .48rem;
   }
 }

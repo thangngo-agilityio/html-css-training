@@ -8,14 +8,14 @@
   text-align: center;
 }
 
-.section-top-provide .title-common-primary {
+.section-top-provide .title-primary {
   color: var(--color-primary);
   font-size: .36rem;
   line-height: calc(47 / 36);
   margin-bottom: .1rem;
 }
 
-.section-top-provide .detail-common-primary {
+.section-top-provide .detail-primary {
   color: var(--color-primary);
   font-size: .14rem;
   margin-bottom: .55rem;
@@ -53,12 +53,12 @@
     background-image: url("../../assets/images/background_top_provide.jpg.webp");
   }
 
-  .section-top-provide .title-common-primary {
+  .section-top-provide .title-primary {
     font-size: .48rem;
     line-height: calc(64 / 48);
   }
 
-  .section-top-provide .detail-common-primary {
+  .section-top-provide .detail-primary {
     font-size: .18rem;
     line-height: calc(32 / 18);
   }
