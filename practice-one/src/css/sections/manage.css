@@ -6,7 +6,7 @@
   padding-top: .6rem;
 }
 
-.section-top-manage .title-common-primary {
+.section-top-manage .title-primary {
   font-size: .24rem;
 }
 
@@ -18,11 +18,11 @@
   }
 
 
-  .section-top-manage .title-common-primary {
+  .section-top-manage .title-primary {
     font-size: .36rem;
   }
 
-  .section-top-manage .detail-common-primary {
+  .section-top-manage .detail-primary {
     max-width: 994px;
     margin: 0 auto 90px;
   }

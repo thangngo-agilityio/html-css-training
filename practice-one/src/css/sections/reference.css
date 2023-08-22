@@ -4,21 +4,21 @@
   padding: .4rem 0;
 }
 
-.section-top-reference .title-common-primary {
+.section-top-reference .title-primary {
   margin-bottom: .14rem;
 }
 
-.section-top-reference .detail-common-primary {
+.section-top-reference .detail-primary {
   margin-bottom: .4rem;
   font-weight: 500;
 }
 
 @media screen and (min-width: 768px) {
-  .section-top-reference .title-common-primary {
+  .section-top-reference .title-primary {
     margin-bottom: 4px;
   }
 
-  .section-top-reference .detail-common-primary {
+  .section-top-reference .detail-primary {
     margin-bottom: 48px;
     font-size: .18rem;
   }
@@ -36,7 +36,7 @@
     padding: 59px 0 calc(59px - 24px);
   }
 
-  .section-top-reference .detail-common-primary {
+  .section-top-reference .detail-primary {
     font-size: 18px;
   }
 }
