@@ -29,6 +29,8 @@
   position: relative;
   font-size: .18rem;
   font-weight: 700;
+  width: 1.84rem;
+  margin: 0 auto;
 }
 
 .section-top-provide .provide-list li:not(:last-child) {
