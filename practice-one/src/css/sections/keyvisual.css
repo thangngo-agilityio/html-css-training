@@ -47,7 +47,7 @@
   justify-content: space-between;
 }
 
-.section-top-keyvisual .keyvisual-register .button-common-primary {
+.section-top-keyvisual .keyvisual-register .button-primary {
   border-radius: .08rem;
 }
 
@@ -107,7 +107,7 @@
     font-size: var(--font-size-default);
   }
 
-  .section-top-keyvisual .keyvisual-register .button-common-primary {
+  .section-top-keyvisual .keyvisual-register .button-primary {
     width: 1.36rem;
   }
 }
