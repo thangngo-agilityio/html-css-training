@@ -4,7 +4,8 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="title" content="Bilgi Teknolojilerinde 23 Yıllık Tecrübe">
-  <meta name="description" content="Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.">
+  <meta name="description"
+    content="Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.">
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link rel="stylesheet" href="/src/css/main.css" />
   <title>Bilgi Teknolojilerinde 23 Yıllık Tecrübe</title>
@@ -12,24 +13,12 @@
 
 <body>
   <div class="container">
+    <!-- section header -->
     <include src="./components/header.html"></include>
     <main>
-      <section class="section-top-keyvisual">
-        <picture class="keyvisual-background">
-          <source media="(min-width: 768px)" srcset="./assets/images/img_top_keyvisual.jpg.webp">
-          <img src="./assets/images/sp/img_top_keyvisual.jpg.webp" loading="eager" alt="Bilgi Teknolojilerinde 23 Yıllık Tecrübe">
-        </picture>
-        <div class="wrapper">
-          <div class="keyvisual-content">
-            <h1 class="keyvisual-title">Bilgi Teknolojilerinde 23 Yıllık Tecrübe</h1>
-            <p class="keyvisual-detail">Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimihizmetleri sunmaktayız.</p>
-            <form action="POST" class="keyvisual-register">
-              <input type="email" class="register-input" placeholder="Mail bültenimize kayıt ol">
-              <button type="submit" onclick="alert('This feature is in development')" class="button-primary">Kayıt Ol</button>
-            </form>
-          </div>
-        </div>
-      </section>
+      <!-- section keyvisual -->
+      <include src="./components/keyvisual.html"></include>
+      <!-- section manage -->
       <section class="section-top-manage">
         <div class="wrapper">
           <div class="manage-heading">
@@ -37,34 +26,26 @@
             <p class="detail-primary">Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
           </div>
           <ul class="manage-list">
-            <each loop="item in [{'image': './assets/icons/icon_manage_01.svg', 'title': 'Döküman Analizi'}, {'image': './assets/icons/icon_manage_02.svg', 'title': 'Kabul ve Değerlendirme'}, {'image': './assets/icons/icon_manage_03.svg', 'title': 'İş Kuralları Analizi'}, {'image': './assets/icons/icon_manage_04.svg', 'title': 'Akış Diyagramları'}, {'image': './assets/icons/icon_manage_05.svg', 'title': 'Paydaş Analizi'}, {'image': './assets/icons/icon_manage_06.svg', 'title': 'Prototipleme'}]">
+            <each
+              loop="item in [{'image': './assets/icons/icon_manage_01.svg', 'title': 'Döküman Analizi'}, {'image': './assets/icons/icon_manage_02.svg', 'title': 'Kabul ve Değerlendirme'}, {'image': './assets/icons/icon_manage_03.svg', 'title': 'İş Kuralları Analizi'}, {'image': './assets/icons/icon_manage_04.svg', 'title': 'Akış Diyagramları'}, {'image': './assets/icons/icon_manage_05.svg', 'title': 'Paydaş Analizi'}, {'image': './assets/icons/icon_manage_06.svg', 'title': 'Prototipleme'}]">
               <include src="./components/manage-item.html">{{item}}</include>
             </each>
           </ul>
         </div>
       </section>
-      <section class="section-top-provide">
-        <div class="wrapper">
-          <div class="provide-heading">
-            <h2 class="title-primary">Test Yönetimiyle Neler Sağlıyoruz?</h2>
-            <p class="detail-primary">IoT Destekli Çözümler</p>
-          </div>
-          <ul class="provide-list">
-            <li><p class="provide-detail">Yazılım Kalitesini Arttırıyoruz</p></li>
-            <li><p class="provide-detail">Olası Hataları Önceden Belirliyoruz</p></li>
-            <li><p class="provide-detail">Oluşabilecek Riskleri Önlüyoruz</p></li>
-            <li><p class="provide-detail">Zaman ve Maliyetten Tasarruf Sağlıyoruz</p></li>
-          </ul>
-        </div>
-      </section>
+      <!-- section provide -->
+      <include src="./components/provide.html"></include>
+      <!-- section information -->
       <section class="section-top-info">
         <div class="wrapper">
-          <each loop="item in [{'image': './assets/images/img_top_info_01.jpg.webp', 'title': 'Kalite ve Süreç Yönetimi', 'detail': 'Deneyimli kadromuz; birçok farklı sektörden deneyimli, PMP® sertifikasına sahip, uzman proje yöneticilerinden oluşmaktadır. Projelerinizin yönetimine destek olmak, zayıf olduğunu düşündüğünüz alanları güçlendirmek, uluslararası geçerliliği olan PMI® metodolojisini şirketinizde uygulamak ve geliştirmek için yanınızdayız.'}, {'image': './assets/images/img_top_info_02.jpg.webp', 'title': 'Test Yönetimi ve Analizi', 'detail': 'Danışmanlığını yürüttüğümüz projelerde yazılım hatalarını önlemek amacıyla gerçekleştirdiğimiz testleri her proje aşamasında manuel ya da test otomasyonu ile dikkatle uygulamaktayız. Deneyimli test ekibimiz, kurumlara yüksek kalitede yazılım testleri hizmeti ile baştan sona güvenli, kaliteli ve tatmin edici bir müşteri deneyimi sunmaktadır.'}]">
-            <include src="./components/info-blog.html">{{item}}</include>
+          <each
+            loop="item in [{'image': './assets/images/img_top_info_01.jpg.webp', 'title': 'Kalite ve Süreç Yönetimi', 'detail': 'Deneyimli kadromuz; birçok farklı sektörden deneyimli, PMP® sertifikasına sahip, uzman proje yöneticilerinden oluşmaktadır. Projelerinizin yönetimine destek olmak, zayıf olduğunu düşündüğünüz alanları güçlendirmek, uluslararası geçerliliği olan PMI® metodolojisini şirketinizde uygulamak ve geliştirmek için yanınızdayız.'}, {'image': './assets/images/img_top_info_02.jpg.webp', 'title': 'Test Yönetimi ve Analizi', 'detail': 'Danışmanlığını yürüttüğümüz projelerde yazılım hatalarını önlemek amacıyla gerçekleştirdiğimiz testleri her proje aşamasında manuel ya da test otomasyonu ile dikkatle uygulamaktayız. Deneyimli test ekibimiz, kurumlara yüksek kalitede yazılım testleri hizmeti ile baştan sona güvenli, kaliteli ve tatmin edici bir müşteri deneyimi sunmaktadır.'}]">
+            <include src="./components/info-blog.html" locals='{{item}}' />
           </each>
           </include>
         </div>
       </section>
+      <!-- section reference -->
       <section class="section-top-reference">
         <div class="wrapper">
           <h2 class="title-primary">Referanslarımız</h2>
@@ -72,47 +53,47 @@
           <div class="reference-company">
             <div class="company-item">
               <each loop="item in [{'logo': './assets/images/logo_top_reference_01.png.webp', 'textAlt': 'BORUSAN'}]">
-                <include src="./components/company-item.html">{{item}}</include>
+                <include src="./components/company-item.html" locals='{{item}}' />
               </each>
             </div>
             <div class="company-item">
-              <each loop="item in [{'logo': './assets/images/logo_top_reference_02.png.webp', 'textAlt': 'İstanbul Bilgi Üniversitesi LAUREATE INTERNATIONAL UNIVERSITIES'}, {'logo': './assets/images/logo_top_reference_03.png.webp', 'textAlt': 'book my show'}]">
-                <include src="./components/company-item.html">{{item}}</include>
+              <each
+                loop="item in [{'logo': './assets/images/logo_top_reference_02.png.webp', 'textAlt': 'İstanbul Bilgi Üniversitesi LAUREATE INTERNATIONAL UNIVERSITIES'}, {'logo': './assets/images/logo_top_reference_03.png.webp', 'textAlt': 'book my show'}]">
+                <include src="./components/company-item.html" locals='{{item}}' />
               </each>
             </div>
             <div class="company-item">
-              <each loop="item in [{'logo': './assets/images/logo_top_reference_04.png.webp', 'textAlt': 'AKBANK'}, {'logo': './assets/images/logo_top_reference_05.png.webp', 'textAlt': 'AKÇANSA'}]">
-                <include src="./components/company-item.html">{{item}}</include>
+              <each
+                loop="item in [{'logo': './assets/images/logo_top_reference_04.png.webp', 'textAlt': 'AKBANK'}, {'logo': './assets/images/logo_top_reference_05.png.webp', 'textAlt': 'AKÇANSA'}]">
+                <include src="./components/company-item.html" locals='{{item}}' />
               </each>
               <div class="company-wrapper is-link">
                 <a href="#">
                   <figure class="company-logo">
-                    <img src="./assets/images/logo_top_reference_06.png.webp" width="134" height="68" loading="lazy" alt="Tümünü Gör">
+                    <img src="./assets/images/logo_top_reference_06.png.webp" width="134" height="68" loading="lazy"
+                      alt="Tümünü Gör">
                   </figure>
                 </a>
               </div>
             </div>
             <div class="company-item is-desktop">
-              <each loop="item in [{'logo': './assets/images/logo_top_reference_07.png.webp', 'textAlt': 'aktaş'}, {'logo': './assets/images/logo_top_reference_08.png.webp', 'textAlt': 'OLA'}]">
-                <include src="./components/company-item.html">{{item}}</include>
+              <each
+                loop="item in [{'logo': './assets/images/logo_top_reference_07.png.webp', 'textAlt': 'aktaş'}, {'logo': './assets/images/logo_top_reference_08.png.webp', 'textAlt': 'OLA'}]">
+                <include src="./components/company-item.html" locals='{{item}}' />
               </each>
             </div>
             <div class="company-item is-desktop">
               <each loop="item in [{'logo': './assets/images/logo_top_reference_09.png.webp', 'textAlt': 'amazon'}]">
-                <include src="./components/company-item.html">{{item}}</include>
+                <include src="./components/company-item.html" locals='{{item}}' />
               </each>
             </div>
           </div>
         </div>
       </section>
-      <section class="section-top-contact">
-        <div class="wrapper">
-          <h2 class="title-primary">Bize Ulaşın</h2>
-          <p class="detail-primary">Çözüm, hizmet ve ürünlerimiz hakkında detaylı bilgi için bizimle irtibata geçin.</p>
-          <a href="#" class="button-primary">Bize Ulaşın</a>
-        </div>
-      </section>
+      <!-- section contact -->
+      <include src="./components/contact.html"></include>
     </main>
+    <!-- section footer -->
     <include src="./components/footer.html"></include>
   </div>
 
