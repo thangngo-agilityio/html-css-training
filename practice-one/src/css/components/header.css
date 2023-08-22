@@ -55,7 +55,7 @@ header {
   color: var(--color-default);
   font-size: .24rem;
   font-weight: 700;
-  transition: 0.4s;
+  transition: color 0.4s;
 }
 
 .header-wrapper .navigation-list li a:hover {

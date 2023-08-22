@@ -5,7 +5,7 @@
   margin-top: -.66rem;
 }
 
-.section-top-keyvisual .keyvisual-background {
+.keyvisual-background {
   position: absolute;
   top: 0;
   left: 0;
@@ -14,14 +14,14 @@
   z-index: -1;
 }
 
-.section-top-keyvisual .keyvisual-background img {
+.keyvisual-background img {
   width: 100%;
   height: 100%;
   object-fit: cover;
 }
 
-.section-top-keyvisual .keyvisual-title {
-  font-size: 0.42rem;
+.keyvisual-title {
+  font-size: 0.4rem;
   color: var(--color-default);
   line-height: calc(57.5 / 42);
   font-weight: 800;
@@ -29,7 +29,7 @@
   margin-bottom: .3rem;
 }
 
-.section-top-keyvisual .keyvisual-detail {
+.keyvisual-detail {
   font-size: .12rem;
   font-weight: 400;
   text-align: center;
@@ -37,7 +37,7 @@
   line-height: calc(23 / 12);
 }
 
-.section-top-keyvisual .keyvisual-register {
+.keyvisual-register {
   display: flex;
   background-color: var(--color-primary);
   width: 90%;
@@ -47,21 +47,18 @@
   justify-content: space-between;
 }
 
-.section-top-keyvisual .keyvisual-register .button-primary {
+.keyvisual-register .button-primary {
   border-radius: .08rem;
 }
 
-.section-top-keyvisual .register-input {
+.register-input {
   width: 100%;
   box-sizing: border-box;
   margin-right: .1rem;
 }
 
-.section-top-keyvisual .is-desktop {
-  display: none;
-}
 
-.section-top-keyvisual .register-input, .register-input::placeholder {
+.register-input, .register-input::placeholder {
   font-size: .14rem;
   color: rgba(0,0,0,.4);
 }
@@ -72,42 +69,34 @@
     padding: 161px 0 127px;
   }
 
-  .section-top-keyvisual .is-mobile {
-    display: none;
-  }
-
-  .section-top-keyvisual .is-desktop {
-    display: block;
-  }
-
-  .section-top-keyvisual .keyvisual-content {
+  .keyvisual-content {
     width: 580px;
   }
 
-  .section-top-keyvisual .keyvisual-title {
+  .keyvisual-title {
     font-size: .56rem;
     text-align: left;
     margin-bottom: 20px;
     line-height: calc(73.5 / 56);
   }
 
-  .section-top-keyvisual .keyvisual-detail {
+  .keyvisual-detail {
     text-align: left;
     font-size: var(--font-size-default);
     margin-bottom: 20px;
   }
 
-  .section-top-keyvisual .keyvisual-register {
+  .keyvisual-register {
     width: calc( 422px - 26px);
     height: calc(73px - 12px);
     margin: 0;
   }
 
-  .section-top-keyvisual .register-input, .register-input::placeholder {
+  .register-input, .register-input::placeholder {
     font-size: var(--font-size-default);
   }
 
-  .section-top-keyvisual .keyvisual-register .button-primary {
+  .keyvisual-register .button-primary {
     width: 1.36rem;
   }
 }
@@ -117,23 +106,23 @@
     padding: 200px 0 148px;
   }
 
-  .section-top-keyvisual .keyvisual-content {
+  .keyvisual-content {
     width: 665px;
   }
 
-  .section-top-keyvisual .keyvisual-title {
+  .keyvisual-title {
     font-size: .64rem;
     line-height: calc(82 / 64);
     margin-bottom: 20px;
   }
 
-  .section-top-keyvisual .keyvisual-detail {
+  .keyvisual-detail {
     font-size: 20px;
     margin-bottom: 50px;
     line-height: calc(36 / 20);
   }
 
-  .section-top-keyvisual .keyvisual-register {
+  .keyvisual-register {
     width: calc( 502px - 26px);
   }
 }
