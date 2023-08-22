@@ -10,8 +10,8 @@
     font-weight: 700;
     padding: .1rem .2rem;
     border-radius: .05rem;
-    transition: .4s;
     cursor: pointer;
+    transition: .4s ease;
 }
 
 .button-primary:hover {
