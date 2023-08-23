@@ -26,8 +26,7 @@
             <p class="detail-primary">Müşterilerimizin yüksek kalite seviyelerini koruyabilmeleri için farklı sektörlerde tecrübe kazanmış uzman kadrolarımızla Proje Yönetimi, İş Analizi ve Test Yönetimi hizmetleri sunmaktayız.</p>
           </div>
           <ul class="manage-list">
-            <each
-              loop="item in [{'image': './assets/icons/icon_manage_01.svg', 'title': 'Döküman Analizi'}, {'image': './assets/icons/icon_manage_02.svg', 'title': 'Kabul ve Değerlendirme'}, {'image': './assets/icons/icon_manage_03.svg', 'title': 'İş Kuralları Analizi'}, {'image': './assets/icons/icon_manage_04.svg', 'title': 'Akış Diyagramları'}, {'image': './assets/icons/icon_manage_05.svg', 'title': 'Paydaş Analizi'}, {'image': './assets/icons/icon_manage_06.svg', 'title': 'Prototipleme'}]">
+            <each loop="item in [{'image': './assets/icons/icon_manage_01.svg', 'title': 'Döküman Analizi'}, {'image': './assets/icons/icon_manage_02.svg', 'title': 'Kabul ve Değerlendirme'}, {'image': './assets/icons/icon_manage_03.svg', 'title': 'İş Kuralları Analizi'}, {'image': './assets/icons/icon_manage_04.svg', 'title': 'Akış Diyagramları'}, {'image': './assets/icons/icon_manage_05.svg', 'title': 'Paydaş Analizi'}, {'image': './assets/icons/icon_manage_06.svg', 'title': 'Prototipleme'}]">
               <include src="./components/manage-item.html">{{item}}</include>
             </each>
           </ul>
@@ -70,7 +69,7 @@
               <div class="company-wrapper is-link">
                 <a href="#">
                   <figure class="company-logo">
-                    <img src="./assets/images/logo_top_reference_06.png.webp" width="134" height="68" loading="lazy"
+                    <img class="logo-img" src="./assets/images/logo_top_reference_06.png.webp" width="134" height="68" loading="lazy"
                       alt="Tümünü Gör">
                   </figure>
                 </a>
