@@ -4,7 +4,7 @@
   padding: .5rem 0 .84rem;
 }
 
-.section-top-provide .provide-heading {
+.provide-heading {
   text-align: center;
 }
 
@@ -21,11 +21,11 @@
   margin-bottom: .55rem;
 }
 
-.section-top-provide .provide-list {
+.provide-list {
   text-align: center;
 }
 
-.section-top-provide .provide-list li {
+.provide-list li {
   position: relative;
   font-size: .18rem;
   font-weight: 700;
@@ -33,11 +33,11 @@
   margin: 0 auto;
 }
 
-.section-top-provide .provide-list li:not(:last-child) {
+.provide-list li:not(:last-child) {
   margin-bottom: 1.15rem;
 }
 
-.section-top-provide .provide-list li:not(:last-child)::after {
+.provide-list li:not(:last-child)::after {
   content: '';
   display: block;
   position: absolute;
@@ -65,27 +65,27 @@
     line-height: calc(32 / 18);
   }
 
-  .section-top-provide .provide-list {
+  .provide-list {
     display: flex;
     flex-wrap: wrap;
   }
 
-  .section-top-provide .provide-list li {
+  .provide-list li {
     width: calc((100% - 100px) / 4);
     text-align: left;
     font-size: .14rem;
     line-height: calc(21.5 / 14);
   }
 
-  .section-top-provide .provide-list li:not(:last-child) {
+  .provide-list li:not(:last-child) {
     margin-right: 32px;
   }
 
-  .section-top-provide li:not(:last-child) .provide-detail {
+  li:not(:last-child) .provide-detail {
     padding-right: 60px;
   }
 
-  .section-top-provide .provide-list li:not(:last-child)::after {
+  .provide-list li:not(:last-child)::after {
     transform: translateX(-50%) rotate(-90deg);
     top: 50%;
     right: 10px;
@@ -97,24 +97,24 @@
 }
 
 @media screen and (min-width: 1025px) {
-  .section-top-provide .provide-list {
+  .provide-list {
     max-width: 1088px;
     margin: 0 auto;
   }
 
-  .section-top-provide .provide-list li {
+  .provide-list li {
     width: calc((100% - 124px) / 4);
   }
 
-  .section-top-provide .provide-list .provide-detail {
+  .provide-list .provide-detail {
     font-size: .18rem;
   }
 
-  .section-top-provide .provide-list li:not(:last-child) {
+  .provide-list li:not(:last-child) {
     margin-right: 40px;
   }
 
-  .section-top-provide .provide-list li:not(:last-child)::after {
+  .provide-list li:not(:last-child)::after {
     width: 28px;
     height: 28px;
     right: 5px;
