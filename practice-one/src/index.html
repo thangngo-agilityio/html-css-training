@@ -40,7 +40,7 @@
       <section class="section-top-info">
         <div class="wrapper">
           <each
-            loop="item in [{'image': './assets/images/img_top_info_01.jpg.webp', 'title': 'Kalite ve Süreç Yönetimi', 'detail': 'Deneyimli kadromuz; birçok farklı sektörden deneyimli, PMP® sertifikasına sahip, uzman proje yöneticilerinden oluşmaktadır. Projelerinizin yönetimine destek olmak, zayıf olduğunu düşündüğünüz alanları güçlendirmek, uluslararası geçerliliği olan PMI® metodolojisini şirketinizde uygulamak ve geliştirmek için yanınızdayız.'}, {'image': './assets/images/img_top_info_02.jpg.webp', 'title': 'Test Yönetimi ve Analizi', 'detail': 'Danışmanlığını yürüttüğümüz projelerde yazılım hatalarını önlemek amacıyla gerçekleştirdiğimiz testleri her proje aşamasında manuel ya da test otomasyonu ile dikkatle uygulamaktayız. Deneyimli test ekibimiz, kurumlara yüksek kalitede yazılım testleri hizmeti ile baştan sona güvenli, kaliteli ve tatmin edici bir müşteri deneyimi sunmaktadır.'}]">
+            loop="item in [{'image': './assets/images/img_top_info_01.webp', 'title': 'Kalite ve Süreç Yönetimi', 'detail': 'Deneyimli kadromuz; birçok farklı sektörden deneyimli, PMP® sertifikasına sahip, uzman proje yöneticilerinden oluşmaktadır. Projelerinizin yönetimine destek olmak, zayıf olduğunu düşündüğünüz alanları güçlendirmek, uluslararası geçerliliği olan PMI® metodolojisini şirketinizde uygulamak ve geliştirmek için yanınızdayız.'}, {'image': './assets/images/img_top_info_02.webp', 'title': 'Test Yönetimi ve Analizi', 'detail': 'Danışmanlığını yürüttüğümüz projelerde yazılım hatalarını önlemek amacıyla gerçekleştirdiğimiz testleri her proje aşamasında manuel ya da test otomasyonu ile dikkatle uygulamaktayız. Deneyimli test ekibimiz, kurumlara yüksek kalitede yazılım testleri hizmeti ile baştan sona güvenli, kaliteli ve tatmin edici bir müşteri deneyimi sunmaktadır.'}]">
             <include src="./components/info-blog.html" locals='{{item}}' />
           </each>
           </include>
@@ -53,25 +53,25 @@
           <p class="detail-primary">Bize güvenen ve beraber çalıştığımız iş ortaklarımız</p>
           <div class="reference-company">
             <div class="company-item">
-              <each loop="item in [{'logo': './assets/images/logo_top_reference_01.png.webp', 'textAlt': 'BORUSAN'}]">
+              <each loop="item in [{'logo': './assets/images/logo_top_reference_01.webp', 'textAlt': 'BORUSAN'}]">
                 <include src="./components/company-item.html" locals='{{item}}' />
               </each>
             </div>
             <div class="company-item">
               <each
-                loop="item in [{'logo': './assets/images/logo_top_reference_02.png.webp', 'textAlt': 'İstanbul Bilgi Üniversitesi LAUREATE INTERNATIONAL UNIVERSITIES'}, {'logo': './assets/images/logo_top_reference_03.png.webp', 'textAlt': 'book my show'}]">
+                loop="item in [{'logo': './assets/images/logo_top_reference_02.webp', 'textAlt': 'İstanbul Bilgi Üniversitesi LAUREATE INTERNATIONAL UNIVERSITIES'}, {'logo': './assets/images/logo_top_reference_03.webp', 'textAlt': 'book my show'}]">
                 <include src="./components/company-item.html" locals='{{item}}' />
               </each>
             </div>
             <div class="company-item">
               <each
-                loop="item in [{'logo': './assets/images/logo_top_reference_04.png.webp', 'textAlt': 'AKBANK'}, {'logo': './assets/images/logo_top_reference_05.png.webp', 'textAlt': 'AKÇANSA'}]">
+                loop="item in [{'logo': './assets/images/logo_top_reference_04.webp', 'textAlt': 'AKBANK'}, {'logo': './assets/images/logo_top_reference_05.webp', 'textAlt': 'AKÇANSA'}]">
                 <include src="./components/company-item.html" locals='{{item}}' />
               </each>
               <div class="company-wrapper is-link">
                 <a href="#">
                   <figure class="company-logo">
-                    <img class="logo-img" src="./assets/images/logo_top_reference_06.png.webp" width="134" height="68" loading="lazy"
+                    <img class="logo-img" src="./assets/images/logo_top_reference_06.webp" width="134" height="68" loading="lazy"
                       alt="Tümünü Gör">
                   </figure>
                 </a>
@@ -79,12 +79,12 @@
             </div>
             <div class="company-item is-desktop">
               <each
-                loop="item in [{'logo': './assets/images/logo_top_reference_07.png.webp', 'textAlt': 'aktaş'}, {'logo': './assets/images/logo_top_reference_08.png.webp', 'textAlt': 'OLA'}]">
+                loop="item in [{'logo': './assets/images/logo_top_reference_07.webp', 'textAlt': 'aktaş'}, {'logo': './assets/images/logo_top_reference_08.webp', 'textAlt': 'OLA'}]">
                 <include src="./components/company-item.html" locals='{{item}}' />
               </each>
             </div>
             <div class="company-item is-desktop">
-              <each loop="item in [{'logo': './assets/images/logo_top_reference_09.png.webp', 'textAlt': 'amazon'}]">
+              <each loop="item in [{'logo': './assets/images/logo_top_reference_09.webp', 'textAlt': 'amazon'}]">
                 <include src="./components/company-item.html" locals='{{item}}' />
               </each>
             </div>

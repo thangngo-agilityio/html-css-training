@@ -1,5 +1,5 @@
 .section-top-provide {
-  background: var(--color-secondary) url("../../assets/images/sp/background_top_provide.jpg.webp") left/cover no-repeat;
+  background: var(--color-secondary) url("../../assets/images/sp/background_top_provide.webp") left/cover no-repeat;
   color: var(--color-primary);
   padding: .5rem 0 .84rem;
 }
@@ -52,7 +52,7 @@
 @media screen and (min-width: 768px) {
   .section-top-provide {
     padding: 35px 0 0;
-    background-image: url("../../assets/images/background_top_provide.jpg.webp");
+    background-image: url("../../assets/images/background_top_provide.webp");
   }
 
   .section-top-provide .title-primary {
