@@ -7,5 +7,17 @@
   --color-quaternary: #f8464a;
 
   /* font-size */
-  --font-size-default: .16rem
+  --font-size-default: .16rem;
+
+  /* font-family */
+  --font-manrope: Manrope, sans-serif;
+  --font-inter: Inter, sans-serif;
+
+  /* width responsive */
+  --width-tablet: 768px;
+  --width-desktop: 1024px;
+
+  /* wrapper */
+  --width-wrapper-tablet: 906px;
+  --width-wrapper-desktop: 1197px;
 }
