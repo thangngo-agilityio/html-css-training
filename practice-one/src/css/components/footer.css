@@ -5,7 +5,7 @@
   width: 100%;
 }
 
-.footer-wrapper {
+.footer .wrapper {
   padding: 0 .2rem .77rem;
   margin: 0 auto;
 }
@@ -98,8 +98,7 @@
 }
 
 @media screen and (min-width: 768px) {
-  .footer-wrapper {
-    max-width: 906px;
+  .footer .wrapper {
     padding-bottom: 70px;
   }
 
@@ -126,8 +125,7 @@
 }
 
 @media screen and (min-width: 1025px) {
-  .footer-wrapper {
-    max-width: 1238px;
+  .footer .wrapper {
     padding-bottom: 70px;
   }
 }
