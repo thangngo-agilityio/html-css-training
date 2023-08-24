@@ -1,9 +1,9 @@
-header {
+.header {
   position: relative;
   z-index: 100;
 }
 
-.header-wrapper {
+.header .wrapper {
   text-align: center;
   padding: .15rem .2rem;
   display: flex;
@@ -11,7 +11,7 @@ header {
   margin: 0 auto;
 }
 
-.header-wrapper .header-navigation {
+.header .header-navigation {
   position: fixed;
   top: 0;
   right: 100%;
@@ -25,28 +25,28 @@ header {
   transition: 0.4s;
 }
 
-.header-wrapper .header-navigation.is-active {
+.header .header-navigation.is-active {
   right: 0;
 }
 
-.header-wrapper .navigation-list {
+.header .navigation-list {
   margin-bottom: .50rem;
   list-style: none;
   margin-bottom: 0;
   padding: 1rem 0;
 }
 
-.header-wrapper .navigation-list li {
+.header .navigation-list li {
   width: 70%;
   height: .30rem;
   margin: 0 auto;
 }
 
-.header-wrapper .navigation-list li:not(:last-child) {
+.header .navigation-list li:not(:last-child) {
   margin-bottom: .6rem;
 }
 
-.header-wrapper .navigation-list li a {
+.header .navigation-list li a {
   display: flex;
   width: 100%;
   height: 100%;
@@ -58,7 +58,7 @@ header {
   transition: color 0.4s;
 }
 
-.header-wrapper .navigation-list li a:hover {
+.header .navigation-list li a:hover {
   color: var(--color-secondary);
 }
 
@@ -101,12 +101,11 @@ header {
 }
 
 @media screen and (min-width: 768px) {
-  .header-wrapper {
+  .header .wrapper {
     justify-content: flex-end;
-    max-width: 906px;
   }
 
-  .header-wrapper .header-navigation {
+  .header .header-navigation {
     position: initial;
     margin-right: 40px;
     background: none;
@@ -117,13 +116,13 @@ header {
     display: none;
   }
 
-  .header-wrapper .navigation-list {
+  .header .navigation-list {
     display: flex;
     justify-content: flex-end;
     padding: 0;
   }
 
-  .header-wrapper .navigation-list li {
+  .header .navigation-list li {
     display: flex;
     width: max-content;
     padding: 10px 20px;
@@ -131,18 +130,18 @@ header {
     align-items: center;
   }
 
-  .header-wrapper .navigation-list li a {
+  .header .navigation-list li a {
     font-size: 14px;
   }
 
 
-  .header-wrapper .navigation-list li:not(:last-child) {
+  .header .navigation-list li:not(:last-child) {
     margin-bottom: 0;
   }
 }
 
 @media screen and (min-width: 1025) {
-  .header-wrapper {
+  .header .wrapper {
     max-width: 1197px;
   }
 }
