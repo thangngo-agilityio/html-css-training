@@ -73,23 +73,23 @@
 }
 
 .media-list .is-icon {
-  background: url("/src/assets/images/sp/icon_top_media.png.webp") 0rem 0rem/cover no-repeat;
+  background: url("/src/assets/images/sp/icon_top_media.webp") 0rem 0rem/cover no-repeat;
 }
 
 .media-list .is-linkedin {
-  background: url("/src/assets/images/sp/icon_top_media.png.webp") -.47rem 0rem/cover no-repeat;
+  background: url("/src/assets/images/sp/icon_top_media.webp") -.47rem 0rem/cover no-repeat;
 }
 
 .media-list .is-twitter {
-  background: url("/src/assets/images/sp/icon_top_media.png.webp") -.94rem 0rem/cover no-repeat;
+  background: url("/src/assets/images/sp/icon_top_media.webp") -.94rem 0rem/cover no-repeat;
 }
 
 .media-list .is-instagram {
-  background: url("/src/assets/images/sp/icon_top_media.png.webp") -1.4rem 0rem/cover no-repeat;
+  background: url("/src/assets/images/sp/icon_top_media.webp") -1.4rem 0rem/cover no-repeat;
 }
 
 .media-list .is-facebook {
-  background: url("/src/assets/images/sp/icon_top_media.png.webp") -1.87rem 0rem/cover no-repeat;
+  background: url("/src/assets/images/sp/icon_top_media.webp") -1.87rem 0rem/cover no-repeat;
 }
 
 .footer-copyright {
